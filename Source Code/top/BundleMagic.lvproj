@@ -18,19 +18,23 @@
 			<Item Name="BundleMagic.vi" Type="VI" URL="../BundleMagic.vi"/>
 		</Item>
 		<Item Name="Dialogs" Type="Folder">
-			<Item Name="DIALOG_Class Selection.vi" Type="VI" URL="../../dialogs/DIALOG_Class Selection.vi"/>
 			<Item Name="DIALOG_Cluster Item Selection.vi" Type="VI" URL="../../dialogs/DIALOG_Cluster Item Selection.vi"/>
-			<Item Name="DIALOG_Method Selection.vi" Type="VI" URL="../../dialogs/DIALOG_Method Selection.vi"/>
 			<Item Name="DIALOG_Property Selection.vi" Type="VI" URL="../../dialogs/DIALOG_Property Selection.vi"/>
+			<Item Name="DIALOG_Method Selection.vi" Type="VI" URL="../../dialogs/DIALOG_Method Selection.vi"/>
+			<Item Name="DIALOG_Class Selection.vi" Type="VI" URL="../../dialogs/DIALOG_Class Selection.vi"/>
 		</Item>
 		<Item Name="Test and Debug" Type="Folder">
 			<Item Name="BundleMagic TEST.vi" Type="VI" URL="../../tests/BundleMagic TEST.vi"/>
+			<Item Name="Large CLuster.vi" Type="VI" URL="../../tests/Large CLuster.vi"/>
 		</Item>
 		<Item Name="build actions" Type="Folder">
 			<Item Name="Post-Build Action_Make copy for LV2015.vi" Type="VI" URL="../../build actions/Post-Build Action_Make copy for LV2015.vi"/>
 			<Item Name="Post-Build Action_restart menus.vi" Type="VI" URL="../../build actions/Post-Build Action_restart menus.vi"/>
 			<Item Name="Pre-Build Action.vi" Type="VI" URL="../../build actions/Pre-Build Action.vi"/>
 		</Item>
+		<Item Name="Class Item Cluster.ctl" Type="VI" URL="../../class/Class Item Cluster.ctl"/>
+		<Item Name="Filter_Get all call chain parents.vi" Type="VI" URL="../../filter/Filter_Get all call chain parents.vi"/>
+		<Item Name="Tree_resync user event.vi" Type="VI" URL="../../tree/Tree_resync user event.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
@@ -104,6 +108,7 @@
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="Range Limits for Type.vim" Type="VI" URL="/&lt;vilib&gt;/numeric/Range Limits for Type.vim"/>
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
+				<Item Name="LVNodeAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVNodeAndColumnTypeDef.ctl"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Filter 1D Array with Scalar (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (String)__ogtk.vi"/>
@@ -513,7 +518,6 @@
 			<Item Name="Has Focus Event_ACAF.vi" Type="VI" URL="../../UI/Has Focus Event_ACAF.vi"/>
 			<Item Name="Has focus actor.vi" Type="VI" URL="../../UI/Has focus actor.vi"/>
 			<Item Name="Is VI Running.vi" Type="VI" URL="../../comparison/Is VI Running.vi"/>
-			<Item Name="Scan Code to ASCII.vi" Type="VI" URL="../../Scan Code to ASCII.vi"/>
 			<Item Name="Setup Radio Buttons for Dialog.vi" Type="VI" URL="../../dialogs/Setup Radio Buttons for Dialog.vi"/>
 			<Item Name="Default Property or Method.vi" Type="VI" URL="../../property_method/Default Property or Method.vi"/>
 			<Item Name="Build Tree From Cluster.vi" Type="VI" URL="../../tree/Build Tree From Cluster.vi"/>
@@ -526,7 +530,7 @@
 			<Item Name="Class Node_Colors and Icons.vi" Type="VI" URL="../../class/Class Node_Colors and Icons.vi"/>
 			<Item Name="Property Node_Colors and Icons.vi" Type="VI" URL="../../property_method/property/Property Node_Colors and Icons.vi"/>
 			<Item Name="Tree_Cluster Tag convert.vi" Type="VI" URL="../../tree/Tree_Cluster Tag convert.vi"/>
-			<Item Name="Tree_Select first item.vi" Type="VI" URL="../../tree/Tree_Select first item.vi"/>
+			<Item Name="Tree_Select first or last item.vi" Type="VI" URL="../../tree/Tree_Select first or last item.vi"/>
 			<Item Name="Tree_Go to next displayed item.vi" Type="VI" URL="../../tree/Tree_Go to next displayed item.vi"/>
 			<Item Name="Property_Tree Tag_Decode2.vi" Type="VI" URL="../../property_method/property/Property_Tree Tag_Decode2.vi"/>
 			<Item Name="Property_Tree Tag_Parse Property Name.vi" Type="VI" URL="../../property_method/property/Property_Tree Tag_Parse Property Name.vi"/>
@@ -620,10 +624,8 @@
 			<Item Name="Class_Tree Tag_Encode.vi" Type="VI" URL="../../class/Class_Tree Tag_Encode.vi"/>
 			<Item Name="Build Tree From Classes.vi" Type="VI" URL="../../tree/Build Tree From Classes.vi"/>
 			<Item Name="Filter Class Tree_MAIN.vi" Type="VI" URL="../../filter/Filter Class Tree_MAIN.vi"/>
-			<Item Name="Filter Class Tree_by Label_2.vi" Type="VI" URL="../../filter/Filter Class Tree_by Label_2.vi"/>
+			<Item Name="Filter Class Tree_by Label_3.vi" Type="VI" URL="../../filter/Filter Class Tree_by Label_3.vi"/>
 			<Item Name="Class_Tree Tag_Decode.vi" Type="VI" URL="../../class/Class_Tree Tag_Decode.vi"/>
-			<Item Name="Filter Class Tree by Type.vi" Type="VI" URL="../../filter/Filter Class Tree by Type.vi"/>
-			<Item Name="Filter Class Tree_Remove Empty Parent Items.vi" Type="VI" URL="../../filter/Filter Class Tree_Remove Empty Parent Items.vi"/>
 			<Item Name="Verify Indents.vi" Type="VI" URL="../../tree/Verify Indents.vi"/>
 			<Item Name="Bundle Script_Wire Bundle.vi" Type="VI" URL="../../cluster/Bundle Script_Wire Bundle.vi"/>
 			<Item Name="Tree Tag Array to Full Names Array.vi" Type="VI" URL="../../tree/Tree Tag Array to Full Names Array.vi"/>
@@ -728,7 +730,6 @@
 			<Item Name="Cluster_Left Cell String.vi" Type="VI" URL="../../cluster/Cluster_Left Cell String.vi"/>
 			<Item Name="Tree_Show Hierarchy.vi" Type="VI" URL="../../tree/Tree_Show Hierarchy.vi"/>
 			<Item Name="Convert to Previous version of LabVIEW.vi" Type="VI" URL="../../../../LabVIEW-common/Application Control/Convert to Previous version of LabVIEW.vi"/>
-			<Item Name="Is exe or top level.vi" Type="VI" URL="../../../../LabVIEW-common/Application Control/Is exe or top level.vi"/>
 			<Item Name="Rect with angle Cluster.ctl" Type="VI" URL="../../../../LabVIEW-common/Picture/Controls/Rect with angle Cluster.ctl"/>
 			<Item Name="Rect or Line Cluster.ctl" Type="VI" URL="../../../../LabVIEW-common/Picture/Controls/Rect or Line Cluster.ctl"/>
 			<Item Name="x,y cluster_DBL.ctl" Type="VI" URL="../../../../LabVIEW-common/Controls/x,y cluster_DBL.ctl"/>
@@ -750,6 +751,25 @@
 			<Item Name="Filter Cluster Items.vi" Type="VI" URL="../../filter/Filter Cluster Items.vi"/>
 			<Item Name="Dialog_Arrow Down on Listbox.vi" Type="VI" URL="../../dialogs/Dialog_Arrow Down on Listbox.vi"/>
 			<Item Name="Control 1.ctl" Type="VI" URL="../../dialogs/Control 1.ctl"/>
+			<Item Name="Motion Control Max Speed.ctl" Type="VI" URL="../../../../../eero compliance/eero-Compliance-5m-Chamber/Code/Config/Equipment/Motion Control Max Speed.ctl"/>
+			<Item Name="RSE_SA Settings Cluster.ctl" Type="VI" URL="../../../../../eero compliance/eero-Compliance-5m-Chamber/Code/Scan/Spurious Emissions/controls/RSE_SA Settings Cluster.ctl"/>
+			<Item Name="Trace Types Enum.ctl" Type="VI" URL="../../../../../eero compliance/eero-Compliance-5m-Chamber/Code/Equipment/rhode_schwartz/Controls/Trace Types Enum.ctl"/>
+			<Item Name="Prescan Steps Cluster.ctl" Type="VI" URL="../../../../../eero compliance/eero-Compliance-5m-Chamber/Code/Sequence/Controls/Prescan Steps Cluster.ctl"/>
+			<Item Name="Start Stop Step Cluster.ctl" Type="VI" URL="../../../../../eero compliance/eero-Compliance-5m-Chamber/Code/Controls/Start Stop Step Cluster.ctl"/>
+			<Item Name="Polarization Radio Buttons.ctl" Type="VI" URL="../../../../../eero compliance/eero-Compliance-5m-Chamber/Code/Sequence/Controls/Polarization Radio Buttons.ctl"/>
+			<Item Name="Sequence Motion Control Order Enum.ctl" Type="VI" URL="../../../../../eero compliance/eero-Compliance-5m-Chamber/Code/Sequence/Controls/Sequence Motion Control Order Enum.ctl"/>
+			<Item Name="RSE_EUT Settings.ctl" Type="VI" URL="../../../../../eero compliance/eero-Compliance-5m-Chamber/Code/Sequence/Controls/RSE_EUT Settings.ctl"/>
+			<Item Name="EUT Command Cluster.ctl" Type="VI" URL="../../../../../eero compliance/eero-Compliance-5m-Chamber/Code/Sequence/Controls/EUT Command Cluster.ctl"/>
+			<Item Name="Zoom Scan Steps Cluster.ctl" Type="VI" URL="../../../../../eero compliance/eero-Compliance-5m-Chamber/Code/Sequence/Controls/Zoom Scan Steps Cluster.ctl"/>
+			<Item Name="Tree_Set position based on value.vi" Type="VI" URL="../../../../LabVIEW-common/UI/Listbox and Table/Tree_Set position based on value.vi"/>
+			<Item Name="Tree_Get first enabled element from bottom.vi" Type="VI" URL="../../tree/Tree_Get first enabled element from bottom.vi"/>
+			<Item Name="Tree_Get first enabled element from top.vi" Type="VI" URL="../../tree/Tree_Get first enabled element from top.vi"/>
+			<Item Name="Class Tree_Select first or last item.vi" Type="VI" URL="../../class/Class Tree_Select first or last item.vi"/>
+			<Item Name="Class Tree_Arrow Control.vi" Type="VI" URL="../../class/Class Tree_Arrow Control.vi"/>
+			<Item Name="Filter_default value.vi" Type="VI" URL="../../filter/Filter_default value.vi"/>
+			<Item Name="Filter_Set focus.vi" Type="VI" URL="../../filter/Filter_Set focus.vi"/>
+			<Item Name="Ascii to string.vi" Type="VI" URL="../../../../LabVIEW-common/String/Ascii to string.vi"/>
+			<Item Name="eero model.ctl" Type="VI" URL="../../../../../eero compliance/eero-Compliance-5m-Chamber/Code/Equipment/eero device driver/controls/eero model.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="BundleMagic Installer" Type="Installer">
@@ -909,7 +929,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/build actions/Post-Build Action_restart menus.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/build actions/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9A14BA47-A155-4145-84D2-5E1FBFFEAF76}</Property>
-				<Property Name="Bld_version.build" Type="Int">48</Property>
+				<Property Name="Bld_version.build" Type="Int">52</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
