@@ -26,6 +26,7 @@
 		<Item Name="Test and Debug" Type="Folder">
 			<Item Name="BundleMagic TEST.vi" Type="VI" URL="../tests/BundleMagic TEST.vi"/>
 			<Item Name="Large CLuster.vi" Type="VI" URL="../tests/Large CLuster.vi"/>
+			<Item Name="test git.vi" Type="VI" URL="../test git.vi"/>
 		</Item>
 		<Item Name="build actions" Type="Folder">
 			<Item Name="Post-Build Action_Make copy for LV2015.vi" Type="VI" URL="../build actions/Post-Build Action_Make copy for LV2015.vi"/>
@@ -735,9 +736,6 @@
 			<Item Name="In Subpanel.vi" Type="VI" URL="../../../LabVIEW-common/Application Control/In Subpanel.vi"/>
 			<Item Name="Align VI windows.vi" Type="VI" URL="../../../LabVIEW-common/UI/Alignment/Align Windows/Align VI windows.vi"/>
 			<Item Name="Is VI Running Top Level.vi" Type="VI" URL="../../../LabVIEW-common/Application Control/Is VI Running Top Level.vi"/>
-			<Item Name="Dialog_Arrow Key Handler.vi" Type="VI" URL="../dialogs/Dialog_Arrow Key Handler.vi"/>
-			<Item Name="Dialog_Arrow Up on Listbox.vi" Type="VI" URL="../dialogs/Dialog_Arrow Up on Listbox.vi"/>
-			<Item Name="Dialog_Arrow Key Handler_ACAF.vi" Type="VI" URL="../dialogs/Dialog_Arrow Key Handler_ACAF.vi"/>
 			<Item Name="Filter Cluster Tree_2.vi" Type="VI" URL="../filter/Filter Cluster Tree_2.vi"/>
 			<Item Name="Get-Set Enum.ctl" Type="VI" URL="../../../LabVIEW-common/Controls/Get-Set Enum.ctl"/>
 			<Item Name="Cluster Element Description.ctl" Type="VI" URL="../cluster/Cluster Element Description.ctl"/>
@@ -745,8 +743,6 @@
 			<Item Name="Set Active Item.vi" Type="VI" URL="../tree/Set Active Item.vi"/>
 			<Item Name="Tree Value FG.vi" Type="VI" URL="../tree/Tree Value FG.vi"/>
 			<Item Name="Filter Cluster Items.vi" Type="VI" URL="../filter/Filter Cluster Items.vi"/>
-			<Item Name="Dialog_Arrow Down on Listbox.vi" Type="VI" URL="../dialogs/Dialog_Arrow Down on Listbox.vi"/>
-			<Item Name="Control 1.ctl" Type="VI" URL="../dialogs/Control 1.ctl"/>
 			<Item Name="Motion Control Max Speed.ctl" Type="VI" URL="../../../../eero compliance/eero-Compliance-5m-Chamber/Code/Config/Equipment/Motion Control Max Speed.ctl"/>
 			<Item Name="RSE_SA Settings Cluster.ctl" Type="VI" URL="../../../../eero compliance/eero-Compliance-5m-Chamber/Code/Scan/Spurious Emissions/controls/RSE_SA Settings Cluster.ctl"/>
 			<Item Name="Trace Types Enum.ctl" Type="VI" URL="../../../../eero compliance/eero-Compliance-5m-Chamber/Code/Equipment/rhode_schwartz/Controls/Trace Types Enum.ctl"/>
@@ -759,17 +755,22 @@
 			<Item Name="Zoom Scan Steps Cluster.ctl" Type="VI" URL="../../../../eero compliance/eero-Compliance-5m-Chamber/Code/Sequence/Controls/Zoom Scan Steps Cluster.ctl"/>
 			<Item Name="Tree_Set position based on value.vi" Type="VI" URL="../../../LabVIEW-common/UI/Listbox and Table/Tree_Set position based on value.vi"/>
 			<Item Name="eero model.ctl" Type="VI" URL="../../../../eero compliance/eero-Compliance-5m-Chamber/Code/Equipment/eero device driver/controls/eero model.ctl"/>
+			<Item Name="Tree_resync user event.vi" Type="VI" URL="../tree/Tree_resync user event.vi"/>
 			<Item Name="Ascii to string.vi" Type="VI" URL="../../../LabVIEW-common/String/Ascii to string.vi"/>
+			<Item Name="Filter_Get all call chain parents.vi" Type="VI" URL="../filter/Filter_Get all call chain parents.vi"/>
 			<Item Name="Filter Class Tree_by Label_3.vi" Type="VI" URL="../filter/Filter Class Tree_by Label_3.vi"/>
-			<Item Name="Tree_Select first or last item.vi" Type="VI" URL="../tree/Tree_Select first or last item.vi"/>
 			<Item Name="Tree_Get first enabled element from top.vi" Type="VI" URL="../tree/Tree_Get first enabled element from top.vi"/>
 			<Item Name="Tree_Get first enabled element from bottom.vi" Type="VI" URL="../tree/Tree_Get first enabled element from bottom.vi"/>
+			<Item Name="Tree_Select first or last item.vi" Type="VI" URL="../tree/Tree_Select first or last item.vi"/>
 			<Item Name="Class Tree_Select first or last item.vi" Type="VI" URL="../class/Class Tree_Select first or last item.vi"/>
+			<Item Name="Dialog_Arrow Key Handler_ACAF.vi" Type="VI" URL="../dialogs/Dialog_Arrow Key Handler_ACAF.vi"/>
+			<Item Name="Dialog_Arrow Key Handler.vi" Type="VI" URL="../dialogs/Dialog_Arrow Key Handler.vi"/>
+			<Item Name="Dialog_Arrow Up on Listbox.vi" Type="VI" URL="../dialogs/Dialog_Arrow Up on Listbox.vi"/>
+			<Item Name="Dialog_Arrow Down on Listbox.vi" Type="VI" URL="../dialogs/Dialog_Arrow Down on Listbox.vi"/>
+			<Item Name="Control 1.ctl" Type="VI" URL="../dialogs/Control 1.ctl"/>
 			<Item Name="Filter_Set focus.vi" Type="VI" URL="../filter/Filter_Set focus.vi"/>
 			<Item Name="Filter_default value.vi" Type="VI" URL="../filter/Filter_default value.vi"/>
 			<Item Name="Class Tree_Arrow Control.vi" Type="VI" URL="../class/Class Tree_Arrow Control.vi"/>
-			<Item Name="Filter_Get all call chain parents.vi" Type="VI" URL="../filter/Filter_Get all call chain parents.vi"/>
-			<Item Name="Tree_resync user event.vi" Type="VI" URL="../tree/Tree_resync user event.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="BundleMagic Installer" Type="Installer">
@@ -929,7 +930,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/build actions/Post-Build Action_restart menus.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/build actions/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9A14BA47-A155-4145-84D2-5E1FBFFEAF76}</Property>
-				<Property Name="Bld_version.build" Type="Int">54</Property>
+				<Property Name="Bld_version.build" Type="Int">56</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -941,7 +942,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3724B053-ED1A-4BC4-B95F-DE36DDB24273}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6232F2E3-85D7-44B7-8F51-0851D97EAE86}</Property>
 				<Property Name="Source[0].newName" Type="Str">LSD_</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
