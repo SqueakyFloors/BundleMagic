@@ -26,14 +26,12 @@
 		<Item Name="Test and Debug" Type="Folder">
 			<Item Name="BundleMagic TEST.vi" Type="VI" URL="../tests/BundleMagic TEST.vi"/>
 			<Item Name="Large CLuster.vi" Type="VI" URL="../tests/Large CLuster.vi"/>
-			<Item Name="test git.vi" Type="VI" URL="../test git.vi"/>
 		</Item>
 		<Item Name="build actions" Type="Folder">
 			<Item Name="Post-Build Action_Make copy for LV2015.vi" Type="VI" URL="../build actions/Post-Build Action_Make copy for LV2015.vi"/>
 			<Item Name="Post-Build Action_restart menus.vi" Type="VI" URL="../build actions/Post-Build Action_restart menus.vi"/>
 			<Item Name="Pre-Build Action.vi" Type="VI" URL="../build actions/Pre-Build Action.vi"/>
 		</Item>
-		<Item Name="Class Item Cluster.ctl" Type="VI" URL="../class/Class Item Cluster.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
@@ -105,8 +103,6 @@
 				<Item Name="Librarian File Info In.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Librarian File Info In.ctl"/>
 				<Item Name="Librarian File List.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Librarian File List.ctl"/>
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
-				<Item Name="Range Limits for Type.vim" Type="VI" URL="/&lt;vilib&gt;/numeric/Range Limits for Type.vim"/>
-				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="LVNodeAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVNodeAndColumnTypeDef.ctl"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
@@ -249,7 +245,6 @@
 				<Item Name="Current VIs Reference__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Reference__ogtk.vi"/>
 				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
 				<Item Name="Boolean Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/Boolean Changed__ogtk.vi"/>
-				<Item Name="Search or Split String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Search or Split String__ogtk.vi"/>
 				<Item Name="Index 1D Array Elements (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (String)__ogtk.vi"/>
 				<Item Name="Filter 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (String)__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array__ogtk.vi"/>
@@ -274,10 +269,8 @@
 				<Item Name="Remove Duplicates from 1D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (LVObject)__ogtk.vi"/>
 				<Item Name="Current VI&apos;s Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VI&apos;s Path__ogtk.vi"/>
 				<Item Name="Strip Path Extension - String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - String__ogtk.vi"/>
-				<Item Name="Strip Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Traditional__ogtk.vi"/>
 				<Item Name="Build Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional__ogtk.vi"/>
 				<Item Name="String Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/String Changed__ogtk.vi"/>
-				<Item Name="Boolean Trigger__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/boolean/boolean.llb/Boolean Trigger__ogtk.vi"/>
 				<Item Name="Write INI Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Write INI Cluster__ogtk.vi"/>
 				<Item Name="Get Data Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name__ogtk.vi"/>
 				<Item Name="Get Data Name from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name from TD__ogtk.vi"/>
@@ -331,8 +324,6 @@
 				<Item Name="Read Section Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Read Section Cluster__ogtk.vi"/>
 				<Item Name="Variant Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/Variant Changed__ogtk.vi"/>
 				<Item Name="Index 1D Array Elements (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (Variant)__ogtk.vi"/>
-				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
-				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 				<Item Name="Data Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/Data Changed__ogtk.vi"/>
 				<Item Name="EXT Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/EXT Changed__ogtk.vi"/>
 				<Item Name="CDB Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/CDB Changed__ogtk.vi"/>
@@ -468,10 +459,14 @@
 				<Item Name="Index 1D Array Elements (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (CDB)__ogtk.vi"/>
 				<Item Name="Index 1D Array Elements (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (Boolean)__ogtk.vi"/>
 				<Item Name="Index Array Elements__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index Array Elements__ogtk.vi"/>
+				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
+				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
+				<Item Name="Strip Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Traditional__ogtk.vi"/>
+				<Item Name="Search or Split String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Search or Split String__ogtk.vi"/>
+				<Item Name="Boolean Trigger__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/boolean/boolean.llb/Boolean Trigger__ogtk.vi"/>
 			</Item>
 			<Item Name="action enum.ctl" Type="VI" URL="../controls/action enum.ctl"/>
 			<Item Name="Select Dialog From Action.vi" Type="VI" URL="../dialogs/Select Dialog From Action.vi"/>
-			<Item Name="Get Tree Data for Affected Item.vi" Type="VI" URL="../tree/Get Tree Data for Affected Item.vi"/>
 			<Item Name="Is Cluster Wire.vi" Type="VI" URL="../comparison/Is Cluster Wire.vi"/>
 			<Item Name="Class Variant 2 Cluster Variant.vi" Type="VI" URL="../class/Class Variant 2 Cluster Variant.vi"/>
 			<Item Name="Traverse Cluster.vi" Type="VI" URL="../cluster/Traverse Cluster.vi"/>
@@ -491,14 +486,10 @@
 			<Item Name="Get Tunnel Diagrams_Flat Sequence.vi" Type="VI" URL="../tunnel and terminal/Get Tunnel Diagrams_Flat Sequence.vi"/>
 			<Item Name="Position Relative to Tunnel.vi" Type="VI" URL="../position/Position Relative to Tunnel.vi"/>
 			<Item Name="Is Named Bundler.vi" Type="VI" URL="../comparison/Is Named Bundler.vi"/>
-			<Item Name="Get Bundler Items Displayed.vi" Type="VI" URL="../cluster/Get Bundler Items Displayed.vi"/>
 			<Item Name="Property Terminal_Unwired.vi" Type="VI" URL="../property_method/property/Property Terminal_Unwired.vi"/>
 			<Item Name="Is In Place Bundler.vi" Type="VI" URL="../comparison/Is In Place Bundler.vi"/>
-			<Item Name="Get In Place Items Displayed.vi" Type="VI" URL="../cluster/Get In Place Items Displayed.vi"/>
 			<Item Name="In Place_Unwired Terminals.vi" Type="VI" URL="../cluster/In Place_Unwired Terminals.vi"/>
-			<Item Name="Bundle Script_In Place_Mark disabled items.vi" Type="VI" URL="../cluster/Bundle Script_In Place_Mark disabled items.vi"/>
 			<Item Name="Cluster is one element or unnamed elements.vi" Type="VI" URL="../cluster/Cluster is one element or unnamed elements.vi"/>
-			<Item Name="DIALOG_Single Element Cluster.vi" Type="VI" URL="../dialogs/DIALOG_Single Element Cluster.vi"/>
 			<Item Name="Tree_Cluster Element to Tag.vi" Type="VI" URL="../tree/Tree_Cluster Element to Tag.vi"/>
 			<Item Name="Tree_Tag Delimiter.vi" Type="VI" URL="../tree/Tree_Tag Delimiter.vi"/>
 			<Item Name="Get Refnum From Indexing Terminal.vi" Type="VI" URL="../class/Get Refnum From Indexing Terminal.vi"/>
@@ -528,7 +519,6 @@
 			<Item Name="Invoke Node_Colors and Icons.vi" Type="VI" URL="../UI/Invoke Node_Colors and Icons.vi"/>
 			<Item Name="Class Node_Colors and Icons.vi" Type="VI" URL="../class/Class Node_Colors and Icons.vi"/>
 			<Item Name="Property Node_Colors and Icons.vi" Type="VI" URL="../property_method/property/Property Node_Colors and Icons.vi"/>
-			<Item Name="Tree_Cluster Tag convert.vi" Type="VI" URL="../tree/Tree_Cluster Tag convert.vi"/>
 			<Item Name="Tree_Go to next displayed item.vi" Type="VI" URL="../tree/Tree_Go to next displayed item.vi"/>
 			<Item Name="Property_Tree Tag_Decode2.vi" Type="VI" URL="../property_method/property/Property_Tree Tag_Decode2.vi"/>
 			<Item Name="Property_Tree Tag_Parse Property Name.vi" Type="VI" URL="../property_method/property/Property_Tree Tag_Parse Property Name.vi"/>
@@ -537,35 +527,8 @@
 			<Item Name="Create Delete Symbol Overlays_Cluster.vi" Type="VI" URL="../UI/Create Delete Symbol Overlays_Cluster.vi"/>
 			<Item Name="Cluster Dialog_Double Click OK.vi" Type="VI" URL="../dialogs/Cluster Dialog_Double Click OK.vi"/>
 			<Item Name="Cluster Dialog_Select Unwired Terminals.vi" Type="VI" URL="../dialogs/Cluster Dialog_Select Unwired Terminals.vi"/>
-			<Item Name="Get Properties from Selected Item.vi" Type="VI" URL="../property_method/property/Get Properties from Selected Item.vi"/>
-			<Item Name="Get Properties from Refnum Terminal.vi" Type="VI" URL="../property_method/property/Get Properties from Refnum Terminal.vi"/>
 			<Item Name="Elapsed Time.vi" Type="VI" URL="../../../LabVIEW-common/Dialog Date &amp; Time/Elapsed Time.vi"/>
-			<Item Name="Temp Property Node_Remove.vi" Type="VI" URL="../property_method/property/Temp Property Node_Remove.vi"/>
-			<Item Name="Properties to Property Info_2.vi" Type="VI" URL="../property_method/property/Properties to Property Info_2.vi"/>
-			<Item Name="RW Properties Engine.vi" Type="VI" URL="../path &amp; file/RW Properties Engine.vi"/>
-			<Item Name="Read Properties as XML.vi" Type="VI" URL="../path &amp; file/Read Properties as XML.vi"/>
-			<Item Name="Class Method Property File Paths.vi" Type="VI" URL="../class/Class Method Property File Paths.vi"/>
 			<Item Name="Path_Support Directory.vi" Type="VI" URL="../path &amp; file/Path_Support Directory.vi"/>
-			<Item Name="Library Path_LLB.vi" Type="VI" URL="../../../LabVIEW-common/Data, Path &amp; File/Library Path_LLB.vi"/>
-			<Item Name="Create Dir if Non-Existant_with strip first.vi" Type="VI" URL="../path &amp; file/Create Dir if Non-Existant_with strip first.vi"/>
-			<Item Name="Save Properties as XML.vi" Type="VI" URL="../path &amp; file/Save Properties as XML.vi"/>
-			<Item Name="Property Name_Dots and Indents.vi" Type="VI" URL="../property_method/property/Property Name_Dots and Indents.vi"/>
-			<Item Name="Properties Consolidate_As In Node.vi" Type="VI" URL="../property_method/property/Properties Consolidate_As In Node.vi"/>
-			<Item Name="Property Info to Property Type.vi" Type="VI" URL="../property_method/property/Property Info to Property Type.vi"/>
-			<Item Name="Property_Tree Tag_Encode.vi" Type="VI" URL="../property_method/property/Property_Tree Tag_Encode.vi"/>
-			<Item Name="Properties_Insert Dividers.vi" Type="VI" URL="../property_method/property/Properties_Insert Dividers.vi"/>
-			<Item Name="Properties_Insert Dotted Properties.vi" Type="VI" URL="../property_method/property/Properties_Insert Dotted Properties.vi"/>
-			<Item Name="Is Class Dottable.vi" Type="VI" URL="../comparison/Is Class Dottable.vi"/>
-			<Item Name="Get Properties from File by Class and or ID.vi" Type="VI" URL="../property_method/property/Get Properties from File by Class and or ID.vi"/>
-			<Item Name="Class Name to Class ID.vi" Type="VI" URL="../class/Class Name to Class ID.vi"/>
-			<Item Name="Properties_Dotted_Prepend Parent ID and Label.vi" Type="VI" URL="../property_method/property/Properties_Dotted_Prepend Parent ID and Label.vi"/>
-			<Item Name="Properties to Tree Arr_2.vi" Type="VI" URL="../property_method/property/Properties to Tree Arr_2.vi"/>
-			<Item Name="Get Methods from Refnum Terminal.vi" Type="VI" URL="../property_method/method/Get Methods from Refnum Terminal.vi"/>
-			<Item Name="Methods to Method Info.vi" Type="VI" URL="../property_method/method/Methods to Method Info.vi"/>
-			<Item Name="Methods_Insert Dividers.vi" Type="VI" URL="../property_method/method/Methods_Insert Dividers.vi"/>
-			<Item Name="Methods to Tree Arr_2.vi" Type="VI" URL="../property_method/method/Methods to Tree Arr_2.vi"/>
-			<Item Name="Method Info to Type.vi" Type="VI" URL="../property_method/method/Method Info to Type.vi"/>
-			<Item Name="Properties_Get Properties From Property Node.vi" Type="VI" URL="../property_method/property/Properties_Get Properties From Property Node.vi"/>
 			<Item Name="Property Node_Selected Element.vi" Type="VI" URL="../property_method/property/Property Node_Selected Element.vi"/>
 			<Item Name="Get Class from Tree Array.vi" Type="VI" URL="../class/Get Class from Tree Array.vi"/>
 			<Item Name="Tree Column Header.vi" Type="VI" URL="../tree/Tree Column Header.vi"/>
@@ -624,109 +587,11 @@
 			<Item Name="Filter Class Tree_MAIN.vi" Type="VI" URL="../filter/Filter Class Tree_MAIN.vi"/>
 			<Item Name="Class_Tree Tag_Decode.vi" Type="VI" URL="../class/Class_Tree Tag_Decode.vi"/>
 			<Item Name="Verify Indents.vi" Type="VI" URL="../tree/Verify Indents.vi"/>
-			<Item Name="Bundle Script_Wire Bundle.vi" Type="VI" URL="../cluster/Bundle Script_Wire Bundle.vi"/>
-			<Item Name="Tree Tag Array to Full Names Array.vi" Type="VI" URL="../tree/Tree Tag Array to Full Names Array.vi"/>
-			<Item Name="Bundle Script_Wire Unbundle.vi" Type="VI" URL="../cluster/Bundle Script_Wire Unbundle.vi"/>
-			<Item Name="New Node On Wire_CREATE.vi" Type="VI" URL="../position/New Node On Wire_CREATE.vi"/>
-			<Item Name="New Node On Wire_HELPER.vi" Type="VI" URL="../position/New Node On Wire_HELPER.vi"/>
-			<Item Name="New Node On Wire_CLEANUP.vi" Type="VI" URL="../position/New Node On Wire_CLEANUP.vi"/>
-			<Item Name="Bundle Script_Cluster Terminal Unbundle.vi" Type="VI" URL="../cluster/Bundle Script_Cluster Terminal Unbundle.vi"/>
-			<Item Name="Relative position conversion.vi" Type="VI" URL="../position/Relative position conversion.vi"/>
-			<Item Name="Move new unbundler WRT Terminal.vi" Type="VI" URL="../position/Move new unbundler WRT Terminal.vi"/>
-			<Item Name="Bundle Script_Cluster Terminal Bundle.vi" Type="VI" URL="../cluster/Bundle Script_Cluster Terminal Bundle.vi"/>
-			<Item Name="Bundle Script_Cluster Bundle_Wire Sink Terminal.vi" Type="VI" URL="../cluster/Bundle Script_Cluster Bundle_Wire Sink Terminal.vi"/>
-			<Item Name="Bundle Script_Cluster Bundle_Create and Wire Bundler for Source Terminal.vi" Type="VI" URL="../cluster/Bundle Script_Cluster Bundle_Create and Wire Bundler for Source Terminal.vi"/>
-			<Item Name="Disconnect Wire from Terminal.vi" Type="VI" URL="../position/Disconnect Wire from Terminal.vi"/>
-			<Item Name="Move new bundler.vi" Type="VI" URL="../position/Move new bundler.vi"/>
-			<Item Name="Clean Up Wires on New Objects.vi" Type="VI" URL="../position/Clean Up Wires on New Objects.vi"/>
-			<Item Name="Bundle Script_Named (Un)Bundler Insert.vi" Type="VI" URL="../cluster/Bundle Script_Named (Un)Bundler Insert.vi"/>
-			<Item Name="Bundle Script_Named (Un)Bundler Remove.vi" Type="VI" URL="../cluster/Bundle Script_Named (Un)Bundler Remove.vi"/>
-			<Item Name="Bundle Script_Named (Un)Bundler Remove Unwired.vi" Type="VI" URL="../cluster/Bundle Script_Named (Un)Bundler Remove Unwired.vi"/>
 			<Item Name="Cluster Node_Unwired Terminals.vi" Type="VI" URL="../cluster/Cluster Node_Unwired Terminals.vi"/>
-			<Item Name="Bundle Script_Named (Un)Bundler Rearrange.vi" Type="VI" URL="../cluster/Bundle Script_Named (Un)Bundler Rearrange.vi"/>
-			<Item Name="Cleanup Wire on Terminal.vi" Type="VI" URL="../position/Cleanup Wire on Terminal.vi"/>
-			<Item Name="Bundle Script_In Place Insert.vi" Type="VI" URL="../cluster/Bundle Script_In Place Insert.vi"/>
-			<Item Name="Bundle Script_In Place Remove.vi" Type="VI" URL="../cluster/Bundle Script_In Place Remove.vi"/>
-			<Item Name="Bundle Script_In Place Remove Unwired.vi" Type="VI" URL="../cluster/Bundle Script_In Place Remove Unwired.vi"/>
-			<Item Name="Bundle Script_In Place Rearrange.vi" Type="VI" URL="../cluster/Bundle Script_In Place Rearrange.vi"/>
-			<Item Name="Position relative to InPlace.vi" Type="VI" URL="../position/Position relative to InPlace.vi"/>
-			<Item Name="Bundle Script_Wire Property or Method.vi" Type="VI" URL="../cluster/Bundle Script_Wire Property or Method.vi"/>
-			<Item Name="Bundle Script_Set Property Node Items.vi" Type="VI" URL="../cluster/Bundle Script_Set Property Node Items.vi"/>
-			<Item Name="Bundle Script_Set Method Node.vi" Type="VI" URL="../cluster/Bundle Script_Set Method Node.vi"/>
-			<Item Name="Bundle Script_Terminal Property or Method.vi" Type="VI" URL="../cluster/Bundle Script_Terminal Property or Method.vi"/>
-			<Item Name="Bundle Script_Terminal Property_Wire Sink Terminal.vi" Type="VI" URL="../cluster/Bundle Script_Terminal Property_Wire Sink Terminal.vi"/>
-			<Item Name="Bundle Script_Terminal Property__Create and Wire Property for Source Terminal.vi" Type="VI" URL="../cluster/Bundle Script_Terminal Property__Create and Wire Property for Source Terminal.vi"/>
-			<Item Name="Move new property node.vi" Type="VI" URL="../position/Move new property node.vi"/>
-			<Item Name="Bundle Script_Property Insert.vi" Type="VI" URL="../cluster/Bundle Script_Property Insert.vi"/>
-			<Item Name="Bundle Script_Properties Remove.vi" Type="VI" URL="../cluster/Bundle Script_Properties Remove.vi"/>
-			<Item Name="Bundle Script_Properties Remove Unwired.vi" Type="VI" URL="../cluster/Bundle Script_Properties Remove Unwired.vi"/>
 			<Item Name="Property Node_Unwired Terminals.vi" Type="VI" URL="../property_method/property/Property Node_Unwired Terminals.vi"/>
-			<Item Name="Bundle Script_Properties Rearrange.vi" Type="VI" URL="../cluster/Bundle Script_Properties Rearrange.vi"/>
-			<Item Name="Bundle Script_Invoke Node Method Change.vi" Type="VI" URL="../cluster/Bundle Script_Invoke Node Method Change.vi"/>
-			<Item Name="Bundle Script_Select Constant Class.vi" Type="VI" URL="../cluster/Bundle Script_Select Constant Class.vi"/>
-			<Item Name="Bundle Script_Select Control Class.vi" Type="VI" URL="../cluster/Bundle Script_Select Control Class.vi"/>
-			<Item Name="Temp Ctrl Path.vi" Type="VI" URL="../path &amp; file/Temp Ctrl Path.vi"/>
-			<Item Name="Bundle Script_Select Node Class.vi" Type="VI" URL="../cluster/Bundle Script_Select Node Class.vi"/>
-			<Item Name="Bundle Script_Class Name to Clipboard.vi" Type="VI" URL="../cluster/Bundle Script_Class Name to Clipboard.vi"/>
-			<Item Name="Flash Dummy.vi" Type="VI" URL="../UI/Flash Dummy.vi"/>
-			<Item Name="Check for Ini files and create_ACAF.vi" Type="VI" URL="../path &amp; file/Check for Ini files and create_ACAF.vi"/>
-			<Item Name="Check for Ini files and create.vi" Type="VI" URL="../path &amp; file/Check for Ini files and create.vi"/>
-			<Item Name="INI_Rebuild Property Files.vi" Type="VI" URL="../path &amp; file/INI_Rebuild Property Files.vi"/>
-			<Item Name="INI_Property Files Built With.vi" Type="VI" URL="../path &amp; file/INI_Property Files Built With.vi"/>
-			<Item Name="INI_Read LV INI Settings.vi" Type="VI" URL="../path &amp; file/INI_Read LV INI Settings.vi"/>
-			<Item Name="Get LabVIEW Preferences (INI) File Path.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/Get LabVIEW Preferences (INI) File Path.vi"/>
-			<Item Name="LV Config Read.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read.vi"/>
-			<Item Name="LV Config Read Boolean.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Boolean.vi"/>
-			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
-			<Item Name="LV Config Read Pathlist.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Pathlist.vi"/>
-			<Item Name="LV Config Read Color.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Color.vi"/>
-			<Item Name="LV Config Read Numeric (I32).vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Numeric (I32).vi"/>
-			<Item Name="String to Boolean.vi" Type="VI" URL="../../../LabVIEW-common/String/String to Boolean.vi"/>
-			<Item Name="Flash Message 2.vi" Type="VI" URL="../../../LabVIEW-common/Dialog Date &amp; Time/Message and Comment/Flash Message 2.vi"/>
-			<Item Name="Flash Message 2_SUB.vi" Type="VI" URL="../../../LabVIEW-common/Dialog Date &amp; Time/Message and Comment/Flash Message 2_SUB.vi"/>
-			<Item Name="Get All Classes Properties and Methods.vi" Type="VI" URL="../get class prop/Get All Classes Properties and Methods.vi"/>
-			<Item Name="Classes_Get All.vi" Type="VI" URL="../class/Classes_Get All.vi"/>
-			<Item Name="Get All Classes.vi" Type="VI" URL="../get class prop/Get All Classes.vi"/>
-			<Item Name="Get Class Specifier Constant Reference.vi" Type="VI" URL="../get class prop/Get Class Specifier Constant Reference.vi"/>
-			<Item Name="Example VI.vi" Type="VI" URL="../get class prop/Example VI.vi"/>
-			<Item Name="Sort Class Array for Tree.vi" Type="VI" URL="../class/Sort Class Array for Tree.vi"/>
-			<Item Name="Get Class Flags.vi" Type="VI" URL="../get class prop/Get Class Flags.vi"/>
-			<Item Name="Get Class Indent Order.vi" Type="VI" URL="../class/Get Class Indent Order.vi"/>
-			<Item Name="Build Class Heirarchy.vi" Type="VI" URL="../class/Build Class Heirarchy.vi"/>
-			<Item Name="Get All Properties_3.vi" Type="VI" URL="../get class prop/Get All Properties_3.vi"/>
-			<Item Name="Get Properties by Class Hierarchy_2.vi" Type="VI" URL="../get class prop/Get Properties by Class Hierarchy_2.vi"/>
-			<Item Name="Get Class Ancestors.vi" Type="VI" URL="../get class prop/Get Class Ancestors.vi"/>
-			<Item Name="Table Parent ID by Child ID.vi" Type="VI" URL="../class/Table Parent ID by Child ID.vi"/>
-			<Item Name="Get Properties by Class ID.vi" Type="VI" URL="../property_method/property/Get Properties by Class ID.vi"/>
-			<Item Name="Get Property Node Reference.vi" Type="VI" URL="../property_method/property/Get Property Node Reference.vi"/>
-			<Item Name="Lookup Class by ID (String).vi" Type="VI" URL="../class/Lookup Class by ID (String).vi"/>
-			<Item Name="Get Property Flags.vi" Type="VI" URL="../property_method/property/Get Property Flags.vi"/>
-			<Item Name="Get All Methods.vi" Type="VI" URL="../get class prop/Get All Methods.vi"/>
-			<Item Name="Get Methods by Specific Class ID.vi" Type="VI" URL="../property_method/method/Get Methods by Specific Class ID.vi"/>
-			<Item Name="Get Methods by Class Hierarchy.vi" Type="VI" URL="../property_method/method/Get Methods by Class Hierarchy.vi"/>
-			<Item Name="Get Methods by Class ID.vi" Type="VI" URL="../property_method/method/Get Methods by Class ID.vi"/>
-			<Item Name="Get Invoke Node Reference.vi" Type="VI" URL="../property_method/method/Get Invoke Node Reference.vi"/>
-			<Item Name="Get Method Flags.vi" Type="VI" URL="../property_method/method/Get Method Flags.vi"/>
-			<Item Name="Which Affected Item Clicked.vi" Type="VI" URL="../Which Affected Item Clicked.vi"/>
-			<Item Name="Is LV Class Control.vi" Type="VI" URL="../comparison/Is LV Class Control.vi"/>
-			<Item Name="Is Invoke Node.vi" Type="VI" URL="../comparison/Is Invoke Node.vi"/>
-			<Item Name="Is Class Specifier.vi" Type="VI" URL="../comparison/Is Class Specifier.vi"/>
-			<Item Name="Is Property Node.vi" Type="VI" URL="../comparison/Is Property Node.vi"/>
-			<Item Name="Menu_Cluster Wire.vi" Type="VI" URL="../menu/Menu_Cluster Wire.vi"/>
-			<Item Name="Menu_Named Bundler.vi" Type="VI" URL="../menu/Menu_Named Bundler.vi"/>
-			<Item Name="Menu_In Place Bundler.vi" Type="VI" URL="../menu/Menu_In Place Bundler.vi"/>
-			<Item Name="Menu_Cluster Terminal.vi" Type="VI" URL="../menu/Menu_Cluster Terminal.vi"/>
-			<Item Name="Is Sequence Local.vi" Type="VI" URL="../comparison/Is Sequence Local.vi"/>
-			<Item Name="Menu_Refnum Wire.vi" Type="VI" URL="../menu/Menu_Refnum Wire.vi"/>
-			<Item Name="Menu_Refnum Terminal.vi" Type="VI" URL="../menu/Menu_Refnum Terminal.vi"/>
-			<Item Name="Menu_Class Specifier.vi" Type="VI" URL="../menu/Menu_Class Specifier.vi"/>
-			<Item Name="Menu_Property Node.vi" Type="VI" URL="../menu/Menu_Property Node.vi"/>
-			<Item Name="Menu_Invoke Node.vi" Type="VI" URL="../menu/Menu_Invoke Node.vi"/>
-			<Item Name="Menu_LV Class Control.vi" Type="VI" URL="../menu/Menu_LV Class Control.vi"/>
 			<Item Name="Get First VI Call Chain with Open Panel.vi" Type="VI" URL="../../../LabVIEW-common/Application Control/Get First VI Call Chain with Open Panel.vi"/>
 			<Item Name="Cluster_Left Cell String.vi" Type="VI" URL="../cluster/Cluster_Left Cell String.vi"/>
 			<Item Name="Tree_Show Hierarchy.vi" Type="VI" URL="../tree/Tree_Show Hierarchy.vi"/>
-			<Item Name="Convert to Previous version of LabVIEW.vi" Type="VI" URL="../../../LabVIEW-common/Application Control/Convert to Previous version of LabVIEW.vi"/>
 			<Item Name="Rect with angle Cluster.ctl" Type="VI" URL="../../../LabVIEW-common/Picture/Controls/Rect with angle Cluster.ctl"/>
 			<Item Name="Rect or Line Cluster.ctl" Type="VI" URL="../../../LabVIEW-common/Picture/Controls/Rect or Line Cluster.ctl"/>
 			<Item Name="x,y cluster_DBL.ctl" Type="VI" URL="../../../LabVIEW-common/Controls/x,y cluster_DBL.ctl"/>
@@ -767,10 +632,136 @@
 			<Item Name="Dialog_Arrow Key Handler.vi" Type="VI" URL="../dialogs/Dialog_Arrow Key Handler.vi"/>
 			<Item Name="Dialog_Arrow Up on Listbox.vi" Type="VI" URL="../dialogs/Dialog_Arrow Up on Listbox.vi"/>
 			<Item Name="Dialog_Arrow Down on Listbox.vi" Type="VI" URL="../dialogs/Dialog_Arrow Down on Listbox.vi"/>
-			<Item Name="Control 1.ctl" Type="VI" URL="../dialogs/Control 1.ctl"/>
 			<Item Name="Filter_Set focus.vi" Type="VI" URL="../filter/Filter_Set focus.vi"/>
 			<Item Name="Filter_default value.vi" Type="VI" URL="../filter/Filter_default value.vi"/>
 			<Item Name="Class Tree_Arrow Control.vi" Type="VI" URL="../class/Class Tree_Arrow Control.vi"/>
+			<Item Name="INI_Property Files Built With.vi" Type="VI" URL="../path &amp; file/INI_Property Files Built With.vi"/>
+			<Item Name="INI_Read LV INI Settings.vi" Type="VI" URL="../path &amp; file/INI_Read LV INI Settings.vi"/>
+			<Item Name="Example VI.vi" Type="VI" URL="../get class prop/Example VI.vi"/>
+			<Item Name="Get Invoke Node Reference.vi" Type="VI" URL="../property_method/method/Get Invoke Node Reference.vi"/>
+			<Item Name="Get Class Specifier Constant Reference.vi" Type="VI" URL="../get class prop/Get Class Specifier Constant Reference.vi"/>
+			<Item Name="Get Method Flags.vi" Type="VI" URL="../property_method/method/Get Method Flags.vi"/>
+			<Item Name="Get All Classes.vi" Type="VI" URL="../get class prop/Get All Classes.vi"/>
+			<Item Name="Lookup Class by ID (String).vi" Type="VI" URL="../class/Lookup Class by ID (String).vi"/>
+			<Item Name="Get Methods by Class ID.vi" Type="VI" URL="../property_method/method/Get Methods by Class ID.vi"/>
+			<Item Name="Table Parent ID by Child ID.vi" Type="VI" URL="../class/Table Parent ID by Child ID.vi"/>
+			<Item Name="Get Class Ancestors.vi" Type="VI" URL="../get class prop/Get Class Ancestors.vi"/>
+			<Item Name="Get Methods by Class Hierarchy.vi" Type="VI" URL="../property_method/method/Get Methods by Class Hierarchy.vi"/>
+			<Item Name="Get Methods by Specific Class ID.vi" Type="VI" URL="../property_method/method/Get Methods by Specific Class ID.vi"/>
+			<Item Name="Get All Methods.vi" Type="VI" URL="../get class prop/Get All Methods.vi"/>
+			<Item Name="Get Property Node Reference.vi" Type="VI" URL="../property_method/property/Get Property Node Reference.vi"/>
+			<Item Name="Get Property Flags.vi" Type="VI" URL="../property_method/property/Get Property Flags.vi"/>
+			<Item Name="Get Properties by Class ID.vi" Type="VI" URL="../property_method/property/Get Properties by Class ID.vi"/>
+			<Item Name="Get Properties by Class Hierarchy_2.vi" Type="VI" URL="../get class prop/Get Properties by Class Hierarchy_2.vi"/>
+			<Item Name="Get All Properties_3.vi" Type="VI" URL="../get class prop/Get All Properties_3.vi"/>
+			<Item Name="Build Class Heirarchy.vi" Type="VI" URL="../class/Build Class Heirarchy.vi"/>
+			<Item Name="Get Class Indent Order.vi" Type="VI" URL="../class/Get Class Indent Order.vi"/>
+			<Item Name="Get Class Flags.vi" Type="VI" URL="../get class prop/Get Class Flags.vi"/>
+			<Item Name="Sort Class Array for Tree.vi" Type="VI" URL="../class/Sort Class Array for Tree.vi"/>
+			<Item Name="Classes_Get All.vi" Type="VI" URL="../class/Classes_Get All.vi"/>
+			<Item Name="Get All Classes Properties and Methods.vi" Type="VI" URL="../get class prop/Get All Classes Properties and Methods.vi"/>
+			<Item Name="Flash Message 2_SUB.vi" Type="VI" URL="../../../LabVIEW-common/Dialog Date &amp; Time/Message and Comment/Flash Message 2_SUB.vi"/>
+			<Item Name="Flash Message 2.vi" Type="VI" URL="../../../LabVIEW-common/Dialog Date &amp; Time/Message and Comment/Flash Message 2.vi"/>
+			<Item Name="INI_Rebuild Property Files.vi" Type="VI" URL="../path &amp; file/INI_Rebuild Property Files.vi"/>
+			<Item Name="Create Dir if Non-Existant_with strip first.vi" Type="VI" URL="../path &amp; file/Create Dir if Non-Existant_with strip first.vi"/>
+			<Item Name="Class Method Property File Paths.vi" Type="VI" URL="../class/Class Method Property File Paths.vi"/>
+			<Item Name="Save Properties as XML.vi" Type="VI" URL="../path &amp; file/Save Properties as XML.vi"/>
+			<Item Name="Read Properties as XML.vi" Type="VI" URL="../path &amp; file/Read Properties as XML.vi"/>
+			<Item Name="RW Properties Engine.vi" Type="VI" URL="../path &amp; file/RW Properties Engine.vi"/>
+			<Item Name="Check for Ini files and create.vi" Type="VI" URL="../path &amp; file/Check for Ini files and create.vi"/>
+			<Item Name="Check for Ini files and create_ACAF.vi" Type="VI" URL="../path &amp; file/Check for Ini files and create_ACAF.vi"/>
+			<Item Name="Flash Dummy.vi" Type="VI" URL="../UI/Flash Dummy.vi"/>
+			<Item Name="Bundle Script_Class Name to Clipboard.vi" Type="VI" URL="../cluster/Bundle Script_Class Name to Clipboard.vi"/>
+			<Item Name="Bundle Script_Select Node Class.vi" Type="VI" URL="../cluster/Bundle Script_Select Node Class.vi"/>
+			<Item Name="Temp Ctrl Path.vi" Type="VI" URL="../path &amp; file/Temp Ctrl Path.vi"/>
+			<Item Name="Bundle Script_Select Control Class.vi" Type="VI" URL="../cluster/Bundle Script_Select Control Class.vi"/>
+			<Item Name="Bundle Script_Select Constant Class.vi" Type="VI" URL="../cluster/Bundle Script_Select Constant Class.vi"/>
+			<Item Name="Bundle Script_Invoke Node Method Change.vi" Type="VI" URL="../cluster/Bundle Script_Invoke Node Method Change.vi"/>
+			<Item Name="Cleanup Wire on Terminal.vi" Type="VI" URL="../position/Cleanup Wire on Terminal.vi"/>
+			<Item Name="Disconnect Wire from Terminal.vi" Type="VI" URL="../position/Disconnect Wire from Terminal.vi"/>
+			<Item Name="Bundle Script_Properties Rearrange.vi" Type="VI" URL="../cluster/Bundle Script_Properties Rearrange.vi"/>
+			<Item Name="Bundle Script_Properties Remove.vi" Type="VI" URL="../cluster/Bundle Script_Properties Remove.vi"/>
+			<Item Name="Bundle Script_Properties Remove Unwired.vi" Type="VI" URL="../cluster/Bundle Script_Properties Remove Unwired.vi"/>
+			<Item Name="Bundle Script_Property Insert.vi" Type="VI" URL="../cluster/Bundle Script_Property Insert.vi"/>
+			<Item Name="Clean Up Wires on New Objects.vi" Type="VI" URL="../position/Clean Up Wires on New Objects.vi"/>
+			<Item Name="Move new property node.vi" Type="VI" URL="../position/Move new property node.vi"/>
+			<Item Name="Bundle Script_Set Method Node.vi" Type="VI" URL="../cluster/Bundle Script_Set Method Node.vi"/>
+			<Item Name="Bundle Script_Set Property Node Items.vi" Type="VI" URL="../cluster/Bundle Script_Set Property Node Items.vi"/>
+			<Item Name="Bundle Script_Terminal Property__Create and Wire Property for Source Terminal.vi" Type="VI" URL="../cluster/Bundle Script_Terminal Property__Create and Wire Property for Source Terminal.vi"/>
+			<Item Name="Bundle Script_Terminal Property_Wire Sink Terminal.vi" Type="VI" URL="../cluster/Bundle Script_Terminal Property_Wire Sink Terminal.vi"/>
+			<Item Name="Bundle Script_Terminal Property or Method.vi" Type="VI" URL="../cluster/Bundle Script_Terminal Property or Method.vi"/>
+			<Item Name="Bundle Script_Wire Property or Method.vi" Type="VI" URL="../cluster/Bundle Script_Wire Property or Method.vi"/>
+			<Item Name="Position relative to InPlace.vi" Type="VI" URL="../position/Position relative to InPlace.vi"/>
+			<Item Name="Tree_Cluster Tag convert.vi" Type="VI" URL="../tree/Tree_Cluster Tag convert.vi"/>
+			<Item Name="Bundle Script_In Place Rearrange.vi" Type="VI" URL="../cluster/Bundle Script_In Place Rearrange.vi"/>
+			<Item Name="Tree Tag Array to Full Names Array.vi" Type="VI" URL="../tree/Tree Tag Array to Full Names Array.vi"/>
+			<Item Name="Bundle Script_In Place Remove.vi" Type="VI" URL="../cluster/Bundle Script_In Place Remove.vi"/>
+			<Item Name="Bundle Script_In Place Remove Unwired.vi" Type="VI" URL="../cluster/Bundle Script_In Place Remove Unwired.vi"/>
+			<Item Name="Bundle Script_In Place Insert.vi" Type="VI" URL="../cluster/Bundle Script_In Place Insert.vi"/>
+			<Item Name="Bundle Script_Named (Un)Bundler Rearrange.vi" Type="VI" URL="../cluster/Bundle Script_Named (Un)Bundler Rearrange.vi"/>
+			<Item Name="Bundle Script_Named (Un)Bundler Remove.vi" Type="VI" URL="../cluster/Bundle Script_Named (Un)Bundler Remove.vi"/>
+			<Item Name="Bundle Script_Named (Un)Bundler Remove Unwired.vi" Type="VI" URL="../cluster/Bundle Script_Named (Un)Bundler Remove Unwired.vi"/>
+			<Item Name="Bundle Script_Named (Un)Bundler Insert.vi" Type="VI" URL="../cluster/Bundle Script_Named (Un)Bundler Insert.vi"/>
+			<Item Name="Move new bundler.vi" Type="VI" URL="../position/Move new bundler.vi"/>
+			<Item Name="Bundle Script_Cluster Bundle_Create and Wire Bundler for Source Terminal.vi" Type="VI" URL="../cluster/Bundle Script_Cluster Bundle_Create and Wire Bundler for Source Terminal.vi"/>
+			<Item Name="Bundle Script_Cluster Bundle_Wire Sink Terminal.vi" Type="VI" URL="../cluster/Bundle Script_Cluster Bundle_Wire Sink Terminal.vi"/>
+			<Item Name="Bundle Script_Cluster Terminal Bundle.vi" Type="VI" URL="../cluster/Bundle Script_Cluster Terminal Bundle.vi"/>
+			<Item Name="Move new unbundler WRT Terminal.vi" Type="VI" URL="../position/Move new unbundler WRT Terminal.vi"/>
+			<Item Name="New Node On Wire_CLEANUP.vi" Type="VI" URL="../position/New Node On Wire_CLEANUP.vi"/>
+			<Item Name="New Node On Wire_HELPER.vi" Type="VI" URL="../position/New Node On Wire_HELPER.vi"/>
+			<Item Name="New Node On Wire_CREATE.vi" Type="VI" URL="../position/New Node On Wire_CREATE.vi"/>
+			<Item Name="Relative position conversion.vi" Type="VI" URL="../position/Relative position conversion.vi"/>
+			<Item Name="Bundle Script_Cluster Terminal Unbundle.vi" Type="VI" URL="../cluster/Bundle Script_Cluster Terminal Unbundle.vi"/>
+			<Item Name="Bundle Script_Wire Unbundle.vi" Type="VI" URL="../cluster/Bundle Script_Wire Unbundle.vi"/>
+			<Item Name="Bundle Script_Wire Bundle.vi" Type="VI" URL="../cluster/Bundle Script_Wire Bundle.vi"/>
+			<Item Name="Property Name_Dots and Indents.vi" Type="VI" URL="../property_method/property/Property Name_Dots and Indents.vi"/>
+			<Item Name="Properties_Get Properties From Property Node.vi" Type="VI" URL="../property_method/property/Properties_Get Properties From Property Node.vi"/>
+			<Item Name="Property_Tree Tag_Encode.vi" Type="VI" URL="../property_method/property/Property_Tree Tag_Encode.vi"/>
+			<Item Name="Method Info to Type.vi" Type="VI" URL="../property_method/method/Method Info to Type.vi"/>
+			<Item Name="Methods to Tree Arr_2.vi" Type="VI" URL="../property_method/method/Methods to Tree Arr_2.vi"/>
+			<Item Name="Methods_Insert Dividers.vi" Type="VI" URL="../property_method/method/Methods_Insert Dividers.vi"/>
+			<Item Name="Methods to Method Info.vi" Type="VI" URL="../property_method/method/Methods to Method Info.vi"/>
+			<Item Name="Get Methods from Refnum Terminal.vi" Type="VI" URL="../property_method/method/Get Methods from Refnum Terminal.vi"/>
+			<Item Name="Property Info to Property Type.vi" Type="VI" URL="../property_method/property/Property Info to Property Type.vi"/>
+			<Item Name="Properties to Tree Arr_2.vi" Type="VI" URL="../property_method/property/Properties to Tree Arr_2.vi"/>
+			<Item Name="Properties_Dotted_Prepend Parent ID and Label.vi" Type="VI" URL="../property_method/property/Properties_Dotted_Prepend Parent ID and Label.vi"/>
+			<Item Name="Class Name to Class ID.vi" Type="VI" URL="../class/Class Name to Class ID.vi"/>
+			<Item Name="Get Properties from File by Class and or ID.vi" Type="VI" URL="../property_method/property/Get Properties from File by Class and or ID.vi"/>
+			<Item Name="Is Class Dottable.vi" Type="VI" URL="../comparison/Is Class Dottable.vi"/>
+			<Item Name="Properties_Insert Dotted Properties.vi" Type="VI" URL="../property_method/property/Properties_Insert Dotted Properties.vi"/>
+			<Item Name="Properties_Insert Dividers.vi" Type="VI" URL="../property_method/property/Properties_Insert Dividers.vi"/>
+			<Item Name="Properties Consolidate_As In Node.vi" Type="VI" URL="../property_method/property/Properties Consolidate_As In Node.vi"/>
+			<Item Name="Properties to Property Info_2.vi" Type="VI" URL="../property_method/property/Properties to Property Info_2.vi"/>
+			<Item Name="Temp Property Node_Remove.vi" Type="VI" URL="../property_method/property/Temp Property Node_Remove.vi"/>
+			<Item Name="Get Properties from Refnum Terminal.vi" Type="VI" URL="../property_method/property/Get Properties from Refnum Terminal.vi"/>
+			<Item Name="Get Properties from Selected Item.vi" Type="VI" URL="../property_method/property/Get Properties from Selected Item.vi"/>
+			<Item Name="DIALOG_Single Element Cluster.vi" Type="VI" URL="../dialogs/DIALOG_Single Element Cluster.vi"/>
+			<Item Name="Bundle Script_In Place_Mark disabled items.vi" Type="VI" URL="../cluster/Bundle Script_In Place_Mark disabled items.vi"/>
+			<Item Name="Get In Place Items Displayed.vi" Type="VI" URL="../cluster/Get In Place Items Displayed.vi"/>
+			<Item Name="Get Bundler Items Displayed.vi" Type="VI" URL="../cluster/Get Bundler Items Displayed.vi"/>
+			<Item Name="Get Tree Data for Affected Item.vi" Type="VI" URL="../tree/Get Tree Data for Affected Item.vi"/>
+			<Item Name="Bundler_Move Up Down Element Order.vi" Type="VI" URL="../cluster/Bundler_Move Up Down Element Order.vi"/>
+			<Item Name="Class Item Cluster.ctl" Type="VI" URL="../class/Class Item Cluster.ctl"/>
+			<Item Name="Properties_Move Up Down Element Order.vi" Type="VI" URL="../property_method/property/Properties_Move Up Down Element Order.vi"/>
+			<Item Name="Delimited String to Array_any delimiter.vi" Type="VI" URL="../../../LabVIEW-common/String/Delimited String to Array_any delimiter.vi"/>
+			<Item Name="Library Path_LLLB2.vi" Type="VI" URL="../../../LabVIEW-common/Data, Path &amp; File/Library Path_LLLB2.vi"/>
+			<Item Name="Convert to Previous version of LabVIEW.vi" Type="VI" URL="../../../LabVIEW-common/Application Control/Convert to Previous version of LabVIEW.vi"/>
+			<Item Name="Which Affected Item Clicked.vi" Type="VI" URL="../top/Which Affected Item Clicked.vi"/>
+			<Item Name="Is LV Class Control.vi" Type="VI" URL="../comparison/Is LV Class Control.vi"/>
+			<Item Name="Is Invoke Node.vi" Type="VI" URL="../comparison/Is Invoke Node.vi"/>
+			<Item Name="Is Class Specifier.vi" Type="VI" URL="../comparison/Is Class Specifier.vi"/>
+			<Item Name="Is Property Node.vi" Type="VI" URL="../comparison/Is Property Node.vi"/>
+			<Item Name="Menu_Cluster Wire.vi" Type="VI" URL="../menu/Menu_Cluster Wire.vi"/>
+			<Item Name="Menu_Named Bundler.vi" Type="VI" URL="../menu/Menu_Named Bundler.vi"/>
+			<Item Name="Menu_In Place Bundler.vi" Type="VI" URL="../menu/Menu_In Place Bundler.vi"/>
+			<Item Name="Menu_Cluster Terminal.vi" Type="VI" URL="../menu/Menu_Cluster Terminal.vi"/>
+			<Item Name="Is Sequence Local.vi" Type="VI" URL="../comparison/Is Sequence Local.vi"/>
+			<Item Name="Menu_Refnum Wire.vi" Type="VI" URL="../menu/Menu_Refnum Wire.vi"/>
+			<Item Name="Menu_Refnum Terminal.vi" Type="VI" URL="../menu/Menu_Refnum Terminal.vi"/>
+			<Item Name="Menu_Class Specifier.vi" Type="VI" URL="../menu/Menu_Class Specifier.vi"/>
+			<Item Name="Menu_Property Node.vi" Type="VI" URL="../menu/Menu_Property Node.vi"/>
+			<Item Name="Menu_Invoke Node.vi" Type="VI" URL="../menu/Menu_Invoke Node.vi"/>
+			<Item Name="Menu_LV Class Control.vi" Type="VI" URL="../menu/Menu_LV Class Control.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="BundleMagic Installer" Type="Installer">
@@ -872,39 +863,47 @@
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Source Distribution/NI_AB_PROJECTNAME.llb</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref"></Property>
-				<Property Name="Bld_preActionVIID" Type="Ref"></Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/build actions/Post-Build Action_Make copy for LV2015.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{219B7971-0745-49CE-9534-F7CFEB59DBC1}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">27</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Source Distribution/NI_AB_PROJECTNAME.llb</Property>
-				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C4300321-7544-4083-96A1-323EC7544E7E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5719E0C2-ACE6-4AC3-B66E-4BB8DCC298DB}</Property>
 				<Property Name="Source[0].newName" Type="Str">LSD_</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Top/BundleMagic TOP.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Top/BundleMagic.ctl</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref"></Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[3].Container.applyPrefix" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Dialogs</Property>
+				<Property Name="Source[3].newName" Type="Str">LSD_</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="Source[4].Container.applyPrefix" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Test and Debug</Property>
+				<Property Name="Source[4].newName" Type="Str">LSD_</Property>
+				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Top/BundleMagic.vi</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 			</Item>
 			<Item Name="local llb" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
@@ -930,7 +929,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/build actions/Post-Build Action_restart menus.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/build actions/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9A14BA47-A155-4145-84D2-5E1FBFFEAF76}</Property>
-				<Property Name="Bld_version.build" Type="Int">56</Property>
+				<Property Name="Bld_version.build" Type="Int">75</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -942,7 +941,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6232F2E3-85D7-44B7-8F51-0851D97EAE86}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5719E0C2-ACE6-4AC3-B66E-4BB8DCC298DB}</Property>
 				<Property Name="Source[0].newName" Type="Str">LSD_</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
@@ -953,20 +952,20 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Top/BundleMagic.ctl</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Top/BundleMagic.vi</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[3].Container.applyPrefix" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Dialogs</Property>
+				<Property Name="Source[3].newName" Type="Str">LSD_</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Dialogs</Property>
-				<Property Name="Source[4].newName" Type="Str">LSD_</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Test and Debug</Property>
+				<Property Name="Source[4].newName" Type="Str">_LSD</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="Source[5].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Test and Debug</Property>
-				<Property Name="Source[5].newName" Type="Str">_LSD</Property>
-				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Top/BundleMagic.vi</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">6</Property>
 			</Item>
 		</Item>
