@@ -32,6 +32,7 @@
 			<Item Name="Post-Build Action_restart menus.vi" Type="VI" URL="../build actions/Post-Build Action_restart menus.vi"/>
 			<Item Name="Pre-Build Action.vi" Type="VI" URL="../build actions/Pre-Build Action.vi"/>
 		</Item>
+		<Item Name="Affected Item Enum.ctl" Type="VI" URL="../controls/Affected Item Enum.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
@@ -762,6 +763,9 @@
 			<Item Name="Menu_Property Node.vi" Type="VI" URL="../menu/Menu_Property Node.vi"/>
 			<Item Name="Menu_Invoke Node.vi" Type="VI" URL="../menu/Menu_Invoke Node.vi"/>
 			<Item Name="Menu_LV Class Control.vi" Type="VI" URL="../menu/Menu_LV Class Control.vi"/>
+			<Item Name="ms to time string.vi" Type="VI" URL="../../../LabVIEW-common/Dialog Date &amp; Time/ms to time string.vi"/>
+			<Item Name="Set Panel Origin.vi" Type="VI" URL="../UI/Set Panel Origin.vi"/>
+			<Item Name="Is Case Selector.vi" Type="VI" URL="../comparison/Is Case Selector.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="BundleMagic Installer" Type="Installer">
@@ -929,7 +933,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/build actions/Post-Build Action_restart menus.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/build actions/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9A14BA47-A155-4145-84D2-5E1FBFFEAF76}</Property>
-				<Property Name="Bld_version.build" Type="Int">75</Property>
+				<Property Name="Bld_version.build" Type="Int">85</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>

@@ -1,28 +1,64 @@
 # BundleMagic
-A LabVIEW plugin for Un/Bundle, Method, and Property Node manipulation
+Bundle Mag!c is a LabVIEW plugin that augments right-click menu options on the block diagram for:
+
+- Cluster and class wires and terminals
+- Unbundle- and bundle-by-name nodes
+- Refnum terminals and wires
+- Property and Invoke nodes
+- Class constants and controls
+
+A dialog is provided to search and select cluster items, properties, methods, and LabVIEW classes, automating the placement of bundle- and unbundle-by-name nodes, property nodes, and invoke nodes when clicking on the appropriate terminals or wires.
+
+You can add, remove, or rearrange elements from bundle- and unbundle-by-name nodes and property nodes. You can browse and change methods on invoke nodes. And you can  select and apply class types for LabVIEW class constants. 
+
+| Block Diagram |
+| -------------------------------------------------------------- |
+
+| Block Diagram Objects Affected                                               | Right-Click Menu Options                | Has Dialog? | Notes                                                                                                                                                                                                                                                        |
+|------------------------------------------------------------------------------|-----------------------------------------|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Cluster Source Terminal<br/><br/>Class Source Terminal                       | Bundle...<br/>Unbundle...               | *Y          |                                                                                                                                                                                                                                                              |
+| Cluster Sink Terminal<br/><br/>Class Sink Terminal                           | Bundle...                               | *Y          | Creates a constant if unwired and selected without a corresponding source terminal                                                                                                                                                                           |
+|                                                                              | Unbundle...                             | *Y          | Only allowed for wired sink terminals                                                                                                                                                                                                                        |
+| Cluster Wires<br/><br/>Class Wires                                           | Bundle...                               | *Y          | Inserts named bundler on wire                                                                                                                                                                                                                                |                                                                                                                                                                                                                                                              |
+|                                                                              | Unbundle...                             | *Y          | Inserts named unbundler on Wire                                                                                                                                                                                                                              |
+| Unbundle By Name Element Terminals<br/><br/>Bundle By Name Element Terminals | Move Up<br/>Move Down                   | N           | Move clicked element up or down. WIll be grayed out if move not possible                                                                                                                                                                                     |
+|                                                                              | Add Elements...                         | Y           | Right-Click on any cluster output terminal to add items before or after that terminal                                                                                                                                                                        |
+|                                                                              | Remove Elements...                      | Y           |                                                                                                                                                                                                                                                              |
+|                                                                              | Remove Unwired Elements                 | N           | If all elements are unwired, the last element will remain after this function executes                                                                                                                                                                       |
+|                                                                              | Rearrange Elements...<br/>Swap Elements | Y<br/>N     | Change order of elements in un/bunder node. Grayed if one element displayed, “Swap” if two elements displayed                                                                                                                                                |
+| Refnum Terminals<br/>Refnum Wires                                            | Drop Properties...                      | Y           | Drop a Property Node with one or more properties and connect to selected terminal or wire                                                                                                                                                                    |
+|                                                                              | Drop Method...                          | Y           | Drop an Invoke Node and connect to terminal or wire                                                                                                                                                                                                          |
+| Property Node Element Terminals                                              | Move Up<br/>Move Down                   | N           |                                                                                                                                                                                                                                                              |
+|                                                                              | Add Properties...                       | Y           | Insets properties before or after the selected property. If only the default element is currently displayed, this function will replace the default element                                                                                                  |
+|                                                                              | Remove Properties...                    | Y           | Select items to remove from the node                                                                                                                                                                                                                         |
+|                                                                              | Remove Unwired Properties               | N           | Removes unwired terminals. Terminals with broken wires are retained.                                                                                                                                                                                         |
+|                                                                              | Rearrange Properties…                   | Y           | Change order and/or read/write status of displayed properties in node. Setting both R/W status of an element to false will remove the element from the node.Because multiple change types are possible, this option uses a dialog even on a two-element node |
+| Invoke Node                                                                  | Browse Methods...                       | Y           | Browse and set method of Invoke Node                                                                                                                                                                                                                         |
+| Class Constant                                                               | Browse Classes...                       | Y           | Change class of class constant                                                                                                                                                                                                                               |
+|                                                                              | Copy Class Name to Clipboard            | N           |                                                                                                                                                                                                                                                              |
 
 
-The VIPM installation will include a dependency called LabVIEW Bug Fix for Right-Click Menu Plug-Ins by NI - Toolkit for LabVIEW Download when installing BundleMag!c in a LabVIEW version prior to LV2020.
+| Front Panel Functions |
+|-----------------------|
 
-## Feature TODOs
-On Class browser, show current class of control
-Arrow keys
-On property, arrows should jump to next selectable line
-Optimize Bundle order
-	Find opposite end of wires and order bundler by vertical wire position
-### Builder
-	Save to LV2015 for backward compatible
-### Bugs
-•	helper files are not complete if dialog is closed before all elements are found.
-### When building support files
-- Add fast splash screen when building helper files
-- On first run of function that requires support files, if files don’t exist and scripting is off, present dialog letting user know that this feature is not available unless the support files can be built, which requires scripting to be on, at least for a few minutes (doubecheck that this is true)
-  - Turn scripting off, and attempt to use
-  - Show FP of support builder when called
-### Browse Classes on FP
-When the control is shown in the Class Control on the front panel, right-clicking on the control does not activate the Browse Classes… shortcut menu (but right-clicking the Class Control border does)		.
+| Front Panel Objects Affected | Right-Click Menu Options | Has Dialog? | Notes                          |
+|------------------------------|--------------------------|-------------|--------------------------------|
+| Refnum Control               | Browse Classes...        | Y           | Change class of refnum control |
 
-## BundleMag!c v 1.1
+* Bundling or unbundling clusters with one enclosed element will occur without a dialog; Single element clusters where the element is unnamed will drop an unnamed un/bundler node without a dialog
+
+
+<br/><br/>
+
+<p>
+<img src="documents/Bundle Magic Images_1.png">
+<img src="documents/Bundle Magic Images_2.png">
+<img src="documents/Bundle Magic Images_3.png">
+<img src="documents/Bundle Magic Images_4.png">
+</p>
+
+# Version History
+## v 1.1 (April 2024)
 ### New Features
 - Dialog search accepts multiple search terms
 - New (Un)Bundle by name and Property Node actions:
@@ -30,6 +66,7 @@ When the control is shown in the Class Control on the front panel, right-clickin
   - Cluster and property elements can be moved up and down using the “Move Up” and “Move Down” contextual menu items
 - Added short flash dialog when support files are being (re)built
 ### Bug Fixes
+- Corrected a bug where (error) cluster terminals on a case structure’s selector tunnel would not present bundle/unbundle menu items
 - Corrected issue on dialog open where cursor would not always appear in filter string control
 - Attempted to correct a bug where removing multiple cluster or property elements (including Removing unwired elements) could cause LabVIEW to crash 
 - Attempted to correct issue where created Block Diagram items remain selected. (Marching ants are shown but don’t march)
@@ -50,6 +87,9 @@ When the control is shown in the Class Control on the front panel, right-clickin
 - Arrow key dialog behaviors:
   - From the filter, the down arrow key goes to the first selectable item in the tree, and the up arrow key goes to the last selectable item in the tree.
   - Arrow keys now cycle on tree items
-- You can now use the Shift-Tab keybaord shortcut to return to the dialog filter from tree
+- You can now use the Shift-Tab keyboard shortcut to return to the dialog filter from tree
 - Tab cycling in dialogs now goes filter-tree-done-filter…
+
+## v 1.0 (April 2020)
+Initial Release
 
