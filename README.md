@@ -11,39 +11,158 @@ A dialog is provided to search and select cluster items, properties, methods, an
 
 You can add, remove, or rearrange elements from bundle- and unbundle-by-name nodes and property nodes. You can browse and change methods on invoke nodes. And you can  select and apply class types for LabVIEW class constants. 
 
-| Block Diagram |
-| -------------------------------------------------------------- |
 
-| Block Diagram Objects Affected                                               | Right-Click Menu Options                | Has Dialog? | Notes                                                                                                                                                                                                                                                        |
-|------------------------------------------------------------------------------|-----------------------------------------|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Cluster Source Terminal<br/><br/>Class Source Terminal                       | Bundle...<br/>Unbundle...               | *Y          |                                                                                                                                                                                                                                                              |
-| Cluster Sink Terminal<br/><br/>Class Sink Terminal                           | Bundle...                               | *Y          | Creates a constant if unwired and selected without a corresponding source terminal                                                                                                                                                                           |
-|                                                                              | Unbundle...                             | *Y          | Only allowed for wired sink terminals                                                                                                                                                                                                                        |
-| Cluster Wires<br/><br/>Class Wires                                           | Bundle...                               | *Y          | Inserts named bundler on wire                                                                                                                                                                                                                                |                                                                                                                                                                                                                                                              |
-|                                                                              | Unbundle...                             | *Y          | Inserts named unbundler on Wire                                                                                                                                                                                                                              |
-| Unbundle By Name Element Terminals<br/><br/>Bundle By Name Element Terminals | Move Up<br/>Move Down                   | N           | Move clicked element up or down. WIll be grayed out if move not possible                                                                                                                                                                                     |
-|                                                                              | Add Elements...                         | Y           | Right-Click on any cluster output terminal to add items before or after that terminal                                                                                                                                                                        |
-|                                                                              | Remove Elements...                      | Y           |                                                                                                                                                                                                                                                              |
-|                                                                              | Remove Unwired Elements                 | N           | If all elements are unwired, the last element will remain after this function executes                                                                                                                                                                       |
-|                                                                              | Rearrange Elements...<br/>Swap Elements | Y<br/>N     | Change order of elements in un/bunder node. Grayed if one element displayed, “Swap” if two elements displayed                                                                                                                                                |
-| Refnum Terminals<br/>Refnum Wires                                            | Drop Properties...                      | Y           | Drop a Property Node with one or more properties and connect to selected terminal or wire                                                                                                                                                                    |
-|                                                                              | Drop Method...                          | Y           | Drop an Invoke Node and connect to terminal or wire                                                                                                                                                                                                          |
-| Property Node Element Terminals                                              | Move Up<br/>Move Down                   | N           |                                                                                                                                                                                                                                                              |
-|                                                                              | Add Properties...                       | Y           | Insets properties before or after the selected property. If only the default element is currently displayed, this function will replace the default element                                                                                                  |
-|                                                                              | Remove Properties...                    | Y           | Select items to remove from the node                                                                                                                                                                                                                         |
-|                                                                              | Remove Unwired Properties               | N           | Removes unwired terminals. Terminals with broken wires are retained.                                                                                                                                                                                         |
-|                                                                              | Rearrange Properties…                   | Y           | Change order and/or read/write status of displayed properties in node. Setting both R/W status of an element to false will remove the element from the node.Because multiple change types are possible, this option uses a dialog even on a two-element node |
-| Invoke Node                                                                  | Browse Methods...                       | Y           | Browse and set method of Invoke Node                                                                                                                                                                                                                         |
-| Class Constant                                                               | Browse Classes...                       | Y           | Change class of class constant                                                                                                                                                                                                                               |
-|                                                                              | Copy Class Name to Clipboard            | N           |                                                                                                                                                                                                                                                              |
-
-
-| Front Panel Functions |
-|-----------------------|
-
-| Front Panel Objects Affected | Right-Click Menu Options | Has Dialog? | Notes                          |
-|------------------------------|--------------------------|-------------|--------------------------------|
-| Refnum Control               | Browse Classes...        | Y           | Change class of refnum control |
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:super; font-size: 9pt}
+.tg .tg-jut8{background-color:#CCC;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-lea3{background-color:#CCC;text-align:center;vertical-align:top}
+.tg .tg-sd4m{background-color:#CCC;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-txwv{background-color:#EFEFEF;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-jut8" colspan="4"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000">Block Diagram </span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-sd4m"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000">Block Diagram Objects Affected</span></td>
+    <td class="tg-sd4m"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000">Right-Click Menu Options</span></td>
+    <td class="tg-sd4m"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000">Has Dialog?</span></td>
+    <td class="tg-sd4m"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000">Notes</span></td>
+  </tr>
+  <tr>
+    <td class="tg-txwv" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Cluster Source Terminal</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Class Source Terminal</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Bundle...</span></td>
+    <td class="tg-1wig">*<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Y</span></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Unbundle...</span></td>
+    <td class="tg-1wig">*<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Y</span></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-txwv" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Cluster Sink Terminal</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Class Sink Terminal</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Bundle...</span></td>
+    <td class="tg-1wig">*<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Y</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Creates a constant if unwired and selected without a corresponding source terminal</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Unbundle...</span></td>
+    <td class="tg-1wig">*<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Y</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Only allowed for wired sink terminals</span></td>
+  </tr>
+  <tr>
+    <td class="tg-txwv" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Cluster Wires</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Class Wires</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Bundle...</span></td>
+    <td class="tg-1wig">*<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Y</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Inserts named bundler on wire</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Unbundle...</span></td>
+    <td class="tg-1wig">*<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Y</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Inserts named unbundler on Wire</span></td>
+  </tr>
+  <tr>
+    <td class="tg-txwv"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Unbundle By Name Element Terminals</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Move UpMove Down</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">N</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Move clicked element up or down. WIll be grayed out if move not possible</span></td>
+  </tr>
+  <tr>
+    <td class="tg-txwv" rowspan="4"><br><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Bundle By Name Element Terminals</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Add Elements...</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Y</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Right-Click on any cluster output terminal to add items before or after that terminal</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Remove Elements...</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Y</span></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Remove Unwired Elements</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">N</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">If all elements are unwired, the last element will remain after this function executes</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Rearrange Elements.../ Swap Elements</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Y</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Change order of elements in un/bundler node. </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Grayed if one element displayed</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">“Swap” if two elements displayed</span></td>
+  </tr>
+  <tr>
+    <td class="tg-txwv" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Refnum Terminals</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Refnum Wires</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Drop Properties...</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Y</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Drop a Property Node with one or more properties and connect to selected terminal or wire</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Drop Method...</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Y</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Drop an Invoke Node and connect to terminal or wire</span></td>
+  </tr>
+  <tr>
+    <td class="tg-txwv" rowspan="5"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Property Node Element Terminals</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Move UpMove Down</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">N</span></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Add Properties...</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Y</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Insets properties before or after the selected property. If only the default element is currently displayed, this function will replace the default element</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Remove Properties...</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Y</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Select items to remove from the node</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Remove Unwired Properties</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">N</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Removes unwired terminals. Terminals with broken wires are retained.</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Rearrange Properties…</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Y</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Change order and/or read/write status of displayed properties in node. Setting both R/W status of an element to false will remove the element from the node.Because multiple change types are possible, this option uses a dialog even on a two-element node</span></td>
+  </tr>
+  <tr>
+    <td class="tg-txwv"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Invoke Node</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Browse Methods...</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Y</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Browse and set method of Invoke Node</span></td>
+  </tr>
+  <tr>
+    <td class="tg-txwv" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Class Constant</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Browse Classes...</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Y</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Change class of class constant</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Copy Class Name to Clipboard</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">N</span></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-lea3" colspan="4"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Front Panel Functions</span></td>
+  </tr>
+  <tr>
+    <td class="tg-txwv"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Refnum Control</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Browse Classes...</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Y</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Change class of refnum control</span></td>
+  </tr>
+</tbody>
+</table>
 
 * Bundling or unbundling clusters with one enclosed element will occur without a dialog; Single element clusters where the element is unnamed will drop an unnamed un/bundler node without a dialog
 

@@ -32,7 +32,7 @@
 			<Item Name="Post-Build Action_restart menus.vi" Type="VI" URL="../build actions/Post-Build Action_restart menus.vi"/>
 			<Item Name="Pre-Build Action.vi" Type="VI" URL="../build actions/Pre-Build Action.vi"/>
 		</Item>
-		<Item Name="Affected Item Enum.ctl" Type="VI" URL="../controls/Affected Item Enum.ctl"/>
+		<Item Name="Building Helper Files DIALOG.vi" Type="VI" URL="../dialogs/Building Helper Files DIALOG.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
@@ -460,7 +460,6 @@
 				<Item Name="Index 1D Array Elements (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (CDB)__ogtk.vi"/>
 				<Item Name="Index 1D Array Elements (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (Boolean)__ogtk.vi"/>
 				<Item Name="Index Array Elements__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index Array Elements__ogtk.vi"/>
-				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
 				<Item Name="Strip Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Traditional__ogtk.vi"/>
 				<Item Name="Search or Split String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Search or Split String__ogtk.vi"/>
@@ -654,15 +653,13 @@
 			<Item Name="Get Property Flags.vi" Type="VI" URL="../property_method/property/Get Property Flags.vi"/>
 			<Item Name="Get Properties by Class ID.vi" Type="VI" URL="../property_method/property/Get Properties by Class ID.vi"/>
 			<Item Name="Get Properties by Class Hierarchy_2.vi" Type="VI" URL="../get class prop/Get Properties by Class Hierarchy_2.vi"/>
-			<Item Name="Get All Properties_3.vi" Type="VI" URL="../get class prop/Get All Properties_3.vi"/>
+			<Item Name="Get All Properties.vi" Type="VI" URL="../get class prop/Get All Properties.vi"/>
 			<Item Name="Build Class Heirarchy.vi" Type="VI" URL="../class/Build Class Heirarchy.vi"/>
 			<Item Name="Get Class Indent Order.vi" Type="VI" URL="../class/Get Class Indent Order.vi"/>
 			<Item Name="Get Class Flags.vi" Type="VI" URL="../get class prop/Get Class Flags.vi"/>
 			<Item Name="Sort Class Array for Tree.vi" Type="VI" URL="../class/Sort Class Array for Tree.vi"/>
 			<Item Name="Classes_Get All.vi" Type="VI" URL="../class/Classes_Get All.vi"/>
 			<Item Name="Get All Classes Properties and Methods.vi" Type="VI" URL="../get class prop/Get All Classes Properties and Methods.vi"/>
-			<Item Name="Flash Message 2_SUB.vi" Type="VI" URL="../../../LabVIEW-common/Dialog Date &amp; Time/Message and Comment/Flash Message 2_SUB.vi"/>
-			<Item Name="Flash Message 2.vi" Type="VI" URL="../../../LabVIEW-common/Dialog Date &amp; Time/Message and Comment/Flash Message 2.vi"/>
 			<Item Name="INI_Rebuild Property Files.vi" Type="VI" URL="../path &amp; file/INI_Rebuild Property Files.vi"/>
 			<Item Name="Create Dir if Non-Existant_with strip first.vi" Type="VI" URL="../path &amp; file/Create Dir if Non-Existant_with strip first.vi"/>
 			<Item Name="Class Method Property File Paths.vi" Type="VI" URL="../class/Class Method Property File Paths.vi"/>
@@ -766,6 +763,7 @@
 			<Item Name="ms to time string.vi" Type="VI" URL="../../../LabVIEW-common/Dialog Date &amp; Time/ms to time string.vi"/>
 			<Item Name="Set Panel Origin.vi" Type="VI" URL="../UI/Set Panel Origin.vi"/>
 			<Item Name="Is Case Selector.vi" Type="VI" URL="../comparison/Is Case Selector.vi"/>
+			<Item Name="Affected Item Enum.ctl" Type="VI" URL="../controls/Affected Item Enum.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="BundleMagic Installer" Type="Installer">
