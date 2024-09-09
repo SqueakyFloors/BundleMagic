@@ -22,6 +22,7 @@
 			<Item Name="DIALOG_Property Selection.vi" Type="VI" URL="../dialogs/DIALOG_Property Selection.vi"/>
 			<Item Name="DIALOG_Method Selection.vi" Type="VI" URL="../dialogs/DIALOG_Method Selection.vi"/>
 			<Item Name="DIALOG_Class Selection.vi" Type="VI" URL="../dialogs/DIALOG_Class Selection.vi"/>
+			<Item Name="Initialize Bundle Magic.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2023/project/Bundle Magic/Initialize Bundle Magic.vi"/>
 		</Item>
 		<Item Name="Test and Debug" Type="Folder">
 			<Item Name="BundleMagic TEST.vi" Type="VI" URL="../tests/BundleMagic TEST.vi"/>
@@ -32,7 +33,9 @@
 			<Item Name="Post-Build Action_restart menus.vi" Type="VI" URL="../build actions/Post-Build Action_restart menus.vi"/>
 			<Item Name="Pre-Build Action.vi" Type="VI" URL="../build actions/Pre-Build Action.vi"/>
 		</Item>
-		<Item Name="Building Helper Files DIALOG.vi" Type="VI" URL="../dialogs/Building Helper Files DIALOG.vi"/>
+		<Item Name="icons" Type="Folder">
+			<Item Name="lsp_logo.ico" Type="Document" URL="../../documents/icons/lsp_logo.ico"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
@@ -105,6 +108,7 @@
 				<Item Name="Librarian File List.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Librarian File List.ctl"/>
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="LVNodeAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVNodeAndColumnTypeDef.ctl"/>
+				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Filter 1D Array with Scalar (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (String)__ogtk.vi"/>
@@ -493,9 +497,7 @@
 			<Item Name="Tree_Cluster Element to Tag.vi" Type="VI" URL="../tree/Tree_Cluster Element to Tag.vi"/>
 			<Item Name="Tree_Tag Delimiter.vi" Type="VI" URL="../tree/Tree_Tag Delimiter.vi"/>
 			<Item Name="Get Refnum From Indexing Terminal.vi" Type="VI" URL="../class/Get Refnum From Indexing Terminal.vi"/>
-			<Item Name="Dialog Window Setup_Pre-Populate.vi" Type="VI" URL="../dialogs/Dialog Window Setup_Pre-Populate.vi"/>
-			<Item Name="Resize window to pane.vi" Type="VI" URL="../UI/Resize window to pane.vi"/>
-			<Item Name="corner position.ctl" Type="VI" URL="../../../LabVIEW-common/UI/controls/corner position.ctl"/>
+			<Item Name="corner position.ctl" Type="VI" URL="../utils/UI/controls/corner position.ctl"/>
 			<Item Name="Bundler_Selected Element.vi" Type="VI" URL="../cluster/Bundler_Selected Element.vi"/>
 			<Item Name="Dialog Title.vi" Type="VI" URL="../dialogs/Dialog Title.vi"/>
 			<Item Name="action_menu text cluster.ctl" Type="VI" URL="../controls/action_menu text cluster.ctl"/>
@@ -515,7 +517,7 @@
 			<Item Name="Format Tree Rows.vi" Type="VI" URL="../tree/Format Tree Rows.vi"/>
 			<Item Name="Tree Parameters.vi" Type="VI" URL="../tree/Tree Parameters.vi"/>
 			<Item Name="Tree_Setup for dialog.vi" Type="VI" URL="../dialogs/Tree_Setup for dialog.vi"/>
-			<Item Name="Defer Panel Updates.vi" Type="VI" URL="../../../LabVIEW-common/Application Control/Defer Panel Updates.vi"/>
+			<Item Name="Defer Panel Updates.vi" Type="VI" URL="../utils/Application Control/Defer Panel Updates.vi"/>
 			<Item Name="Invoke Node_Colors and Icons.vi" Type="VI" URL="../UI/Invoke Node_Colors and Icons.vi"/>
 			<Item Name="Class Node_Colors and Icons.vi" Type="VI" URL="../class/Class Node_Colors and Icons.vi"/>
 			<Item Name="Property Node_Colors and Icons.vi" Type="VI" URL="../property_method/property/Property Node_Colors and Icons.vi"/>
@@ -527,7 +529,7 @@
 			<Item Name="Create Delete Symbol Overlays_Cluster.vi" Type="VI" URL="../UI/Create Delete Symbol Overlays_Cluster.vi"/>
 			<Item Name="Cluster Dialog_Double Click OK.vi" Type="VI" URL="../dialogs/Cluster Dialog_Double Click OK.vi"/>
 			<Item Name="Cluster Dialog_Select Unwired Terminals.vi" Type="VI" URL="../dialogs/Cluster Dialog_Select Unwired Terminals.vi"/>
-			<Item Name="Elapsed Time.vi" Type="VI" URL="../../../LabVIEW-common/Dialog Date &amp; Time/Elapsed Time.vi"/>
+			<Item Name="Elapsed Time.vi" Type="VI" URL="../utils/Dialog Date &amp; Time/Elapsed Time.vi"/>
 			<Item Name="Path_Support Directory.vi" Type="VI" URL="../path &amp; file/Path_Support Directory.vi"/>
 			<Item Name="Property Node_Selected Element.vi" Type="VI" URL="../property_method/property/Property Node_Selected Element.vi"/>
 			<Item Name="Get Class from Tree Array.vi" Type="VI" URL="../class/Get Class from Tree Array.vi"/>
@@ -589,39 +591,33 @@
 			<Item Name="Verify Indents.vi" Type="VI" URL="../tree/Verify Indents.vi"/>
 			<Item Name="Cluster Node_Unwired Terminals.vi" Type="VI" URL="../cluster/Cluster Node_Unwired Terminals.vi"/>
 			<Item Name="Property Node_Unwired Terminals.vi" Type="VI" URL="../property_method/property/Property Node_Unwired Terminals.vi"/>
-			<Item Name="Get First VI Call Chain with Open Panel.vi" Type="VI" URL="../../../LabVIEW-common/Application Control/Get First VI Call Chain with Open Panel.vi"/>
+			<Item Name="Get First VI Call Chain with Open Panel.vi" Type="VI" URL="../utils/Application Control/Get First VI Call Chain with Open Panel.vi"/>
 			<Item Name="Cluster_Left Cell String.vi" Type="VI" URL="../cluster/Cluster_Left Cell String.vi"/>
 			<Item Name="Tree_Show Hierarchy.vi" Type="VI" URL="../tree/Tree_Show Hierarchy.vi"/>
-			<Item Name="Rect with angle Cluster.ctl" Type="VI" URL="../../../LabVIEW-common/Picture/Controls/Rect with angle Cluster.ctl"/>
-			<Item Name="Rect or Line Cluster.ctl" Type="VI" URL="../../../LabVIEW-common/Picture/Controls/Rect or Line Cluster.ctl"/>
-			<Item Name="x,y cluster_DBL.ctl" Type="VI" URL="../../../LabVIEW-common/Controls/x,y cluster_DBL.ctl"/>
-			<Item Name="Rectangle size and position to bounds.vi" Type="VI" URL="../../../LabVIEW-common/Picture/Rectangle size and position to bounds.vi"/>
-			<Item Name="Rectangle bounds to size_2.vi" Type="VI" URL="../../../LabVIEW-common/Picture/Rectangle bounds to size_2.vi"/>
-			<Item Name="Align Rectangles.vi" Type="VI" URL="../../../LabVIEW-common/UI/Alignment/Align Rectangles.vi"/>
-			<Item Name="In Subpanel.vi" Type="VI" URL="../../../LabVIEW-common/Application Control/In Subpanel.vi"/>
-			<Item Name="Align VI windows.vi" Type="VI" URL="../../../LabVIEW-common/UI/Alignment/Align Windows/Align VI windows.vi"/>
-			<Item Name="Is VI Running Top Level.vi" Type="VI" URL="../../../LabVIEW-common/Application Control/Is VI Running Top Level.vi"/>
+			<Item Name="Rect with angle Cluster.ctl" Type="VI" URL="../utils/Picture/Controls/Rect with angle Cluster.ctl"/>
+			<Item Name="Rect or Line Cluster.ctl" Type="VI" URL="../utils/Picture/Controls/Rect or Line Cluster.ctl"/>
+			<Item Name="x,y cluster_DBL.ctl" Type="VI" URL="../utils/Controls/x,y cluster_DBL.ctl"/>
+			<Item Name="Rectangle size and position to bounds.vi" Type="VI" URL="../utils/Picture/Rectangle size and position to bounds.vi"/>
+			<Item Name="Align Rectangles.vi" Type="VI" URL="../utils/UI/Alignment/Align Rectangles.vi"/>
+			<Item Name="In Subpanel.vi" Type="VI" URL="../utils/Application Control/In Subpanel.vi"/>
+			<Item Name="Align VI windows.vi" Type="VI" URL="../utils/UI/Alignment/Align Windows/Align VI windows.vi"/>
+			<Item Name="Is VI Running Top Level.vi" Type="VI" URL="../utils/Application Control/Is VI Running Top Level.vi"/>
 			<Item Name="Filter Cluster Tree_2.vi" Type="VI" URL="../filter/Filter Cluster Tree_2.vi"/>
-			<Item Name="Get-Set Enum.ctl" Type="VI" URL="../../../LabVIEW-common/Controls/Get-Set Enum.ctl"/>
+			<Item Name="Get-Set Enum.ctl" Type="VI" URL="../utils/Controls/Get-Set Enum.ctl"/>
 			<Item Name="Cluster Element Description.ctl" Type="VI" URL="../cluster/Cluster Element Description.ctl"/>
 			<Item Name="Cluster_Get Element Data for Tree.vi" Type="VI" URL="../cluster/Cluster_Get Element Data for Tree.vi"/>
 			<Item Name="Set Active Item.vi" Type="VI" URL="../tree/Set Active Item.vi"/>
 			<Item Name="Tree Value FG.vi" Type="VI" URL="../tree/Tree Value FG.vi"/>
 			<Item Name="Filter Cluster Items.vi" Type="VI" URL="../filter/Filter Cluster Items.vi"/>
-			<Item Name="Motion Control Max Speed.ctl" Type="VI" URL="../../../../eero compliance/eero-Compliance-5m-Chamber/Code/Config/Equipment/Motion Control Max Speed.ctl"/>
-			<Item Name="RSE_SA Settings Cluster.ctl" Type="VI" URL="../../../../eero compliance/eero-Compliance-5m-Chamber/Code/Scan/Spurious Emissions/controls/RSE_SA Settings Cluster.ctl"/>
 			<Item Name="Trace Types Enum.ctl" Type="VI" URL="../../../../eero compliance/eero-Compliance-5m-Chamber/Code/Equipment/rhode_schwartz/Controls/Trace Types Enum.ctl"/>
-			<Item Name="Prescan Steps Cluster.ctl" Type="VI" URL="../../../../eero compliance/eero-Compliance-5m-Chamber/Code/Sequence/Controls/Prescan Steps Cluster.ctl"/>
 			<Item Name="Start Stop Step Cluster.ctl" Type="VI" URL="../../../../eero compliance/eero-Compliance-5m-Chamber/Code/Controls/Start Stop Step Cluster.ctl"/>
 			<Item Name="Polarization Radio Buttons.ctl" Type="VI" URL="../../../../eero compliance/eero-Compliance-5m-Chamber/Code/Sequence/Controls/Polarization Radio Buttons.ctl"/>
 			<Item Name="Sequence Motion Control Order Enum.ctl" Type="VI" URL="../../../../eero compliance/eero-Compliance-5m-Chamber/Code/Sequence/Controls/Sequence Motion Control Order Enum.ctl"/>
-			<Item Name="RSE_EUT Settings.ctl" Type="VI" URL="../../../../eero compliance/eero-Compliance-5m-Chamber/Code/Sequence/Controls/RSE_EUT Settings.ctl"/>
 			<Item Name="EUT Command Cluster.ctl" Type="VI" URL="../../../../eero compliance/eero-Compliance-5m-Chamber/Code/Sequence/Controls/EUT Command Cluster.ctl"/>
-			<Item Name="Zoom Scan Steps Cluster.ctl" Type="VI" URL="../../../../eero compliance/eero-Compliance-5m-Chamber/Code/Sequence/Controls/Zoom Scan Steps Cluster.ctl"/>
-			<Item Name="Tree_Set position based on value.vi" Type="VI" URL="../../../LabVIEW-common/UI/Listbox and Table/Tree_Set position based on value.vi"/>
+			<Item Name="Tree_Set position based on value.vi" Type="VI" URL="../utils/UI/Listbox and Table/Tree_Set position based on value.vi"/>
 			<Item Name="eero model.ctl" Type="VI" URL="../../../../eero compliance/eero-Compliance-5m-Chamber/Code/Equipment/eero device driver/controls/eero model.ctl"/>
 			<Item Name="Tree_resync user event.vi" Type="VI" URL="../tree/Tree_resync user event.vi"/>
-			<Item Name="Ascii to string.vi" Type="VI" URL="../../../LabVIEW-common/String/Ascii to string.vi"/>
+			<Item Name="Ascii to string.vi" Type="VI" URL="../utils/String/Ascii to string.vi"/>
 			<Item Name="Filter_Get all call chain parents.vi" Type="VI" URL="../filter/Filter_Get all call chain parents.vi"/>
 			<Item Name="Filter Class Tree_by Label_3.vi" Type="VI" URL="../filter/Filter Class Tree_by Label_3.vi"/>
 			<Item Name="Tree_Get first enabled element from top.vi" Type="VI" URL="../tree/Tree_Get first enabled element from top.vi"/>
@@ -741,9 +737,9 @@
 			<Item Name="Bundler_Move Up Down Element Order.vi" Type="VI" URL="../cluster/Bundler_Move Up Down Element Order.vi"/>
 			<Item Name="Class Item Cluster.ctl" Type="VI" URL="../class/Class Item Cluster.ctl"/>
 			<Item Name="Properties_Move Up Down Element Order.vi" Type="VI" URL="../property_method/property/Properties_Move Up Down Element Order.vi"/>
-			<Item Name="Delimited String to Array_any delimiter.vi" Type="VI" URL="../../../LabVIEW-common/String/Delimited String to Array_any delimiter.vi"/>
-			<Item Name="Library Path_LLLB2.vi" Type="VI" URL="../../../LabVIEW-common/Data, Path &amp; File/Library Path_LLLB2.vi"/>
-			<Item Name="Convert to Previous version of LabVIEW.vi" Type="VI" URL="../../../LabVIEW-common/Application Control/Convert to Previous version of LabVIEW.vi"/>
+			<Item Name="Delimited String to Array_any delimiter.vi" Type="VI" URL="../utils/String/Delimited String to Array_any delimiter.vi"/>
+			<Item Name="Library Path_LLLB2.vi" Type="VI" URL="../utils/Data, Path &amp; File/Library Path_LLLB2.vi"/>
+			<Item Name="Convert to Previous version of LabVIEW.vi" Type="VI" URL="../utils/Application Control/Convert to Previous version of LabVIEW.vi"/>
 			<Item Name="Which Affected Item Clicked.vi" Type="VI" URL="../top/Which Affected Item Clicked.vi"/>
 			<Item Name="Is LV Class Control.vi" Type="VI" URL="../comparison/Is LV Class Control.vi"/>
 			<Item Name="Is Invoke Node.vi" Type="VI" URL="../comparison/Is Invoke Node.vi"/>
@@ -760,10 +756,17 @@
 			<Item Name="Menu_Property Node.vi" Type="VI" URL="../menu/Menu_Property Node.vi"/>
 			<Item Name="Menu_Invoke Node.vi" Type="VI" URL="../menu/Menu_Invoke Node.vi"/>
 			<Item Name="Menu_LV Class Control.vi" Type="VI" URL="../menu/Menu_LV Class Control.vi"/>
-			<Item Name="ms to time string.vi" Type="VI" URL="../../../LabVIEW-common/Dialog Date &amp; Time/ms to time string.vi"/>
 			<Item Name="Set Panel Origin.vi" Type="VI" URL="../UI/Set Panel Origin.vi"/>
 			<Item Name="Is Case Selector.vi" Type="VI" URL="../comparison/Is Case Selector.vi"/>
 			<Item Name="Affected Item Enum.ctl" Type="VI" URL="../controls/Affected Item Enum.ctl"/>
+			<Item Name="time interval to time string.vi" Type="VI" URL="../utils/Dialog Date &amp; Time/time interval to time string.vi"/>
+			<Item Name="interval type.ctl" Type="VI" URL="../utils/Dialog Date &amp; Time/interval type.ctl"/>
+			<Item Name="convert to seconds.vi" Type="VI" URL="../utils/Dialog Date &amp; Time/convert to seconds.vi"/>
+			<Item Name="Dialog Window Setup.vi" Type="VI" URL="../utils/UI/Splitters/Dialog Window Setup.vi"/>
+			<Item Name="Rectangle bounds to size.vi" Type="VI" URL="../utils/Picture/Rectangle bounds to size.vi"/>
+			<Item Name="FP splitter mode handler.vi" Type="VI" URL="../utils/UI/Splitters/FP splitter mode handler.vi"/>
+			<Item Name="Get Class Control refnum incl if click on control.vi" Type="VI" URL="../class/Get Class Control refnum incl if click on control.vi"/>
+			<Item Name="Building Helper Files DIALOG.vi" Type="VI" URL="../dialogs/Building Helper Files DIALOG.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="BundleMagic Installer" Type="Installer">
@@ -931,7 +934,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/build actions/Post-Build Action_restart menus.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/build actions/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9A14BA47-A155-4145-84D2-5E1FBFFEAF76}</Property>
-				<Property Name="Bld_version.build" Type="Int">85</Property>
+				<Property Name="Bld_version.build" Type="Int">91</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -969,6 +972,44 @@
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">6</Property>
+			</Item>
+			<Item Name="Initialize Bundle Magic" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{C0D2426B-A95F-4F06-A14F-CABC8FCC4360}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{5296A7F3-9613-48AF-915A-AAF32FA00CCD}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{FE13CA1A-9130-4EAE-A41C-8B1B8043D98C}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Initialize Bundle Magic</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Source Distribution</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{766E58A6-91EA-48D7-8E7D-C63C768306DF}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Initialize Bundle Magic.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Source Distribution/Initialize Bundle Magic.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Source Distribution/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/icons/lsp_logo.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2C3849EF-BE8A-43B1-9E2C-928742035D70}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dialogs/Initialize Bundle Magic.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Little Sphaeroid Design</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Initialize Bundle Magic</Property>
+				<Property Name="TgtF_internalName" Type="Str">Initialize Bundle Magic</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 Little Sphaeroid Design</Property>
+				<Property Name="TgtF_productName" Type="Str">Initialize Bundle Magic</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{CD660A12-A53D-46FF-AE64-EF9E7A6630CA}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Initialize Bundle Magic.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>
