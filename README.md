@@ -1,4 +1,4 @@
-# BundleMagic
+# BundleMagic a pardigm
 Bundle Mag!c is a LabVIEW plugin that augments right-click menu options on the block diagram for:
 
 - Cluster and class wires and terminals
