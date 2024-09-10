@@ -12,19 +12,6 @@ A dialog is provided to search and select cluster items, properties, methods, an
 You can add, remove, or rearrange elements from bundle- and unbundle-by-name nodes and property nodes. You can browse and change methods on invoke nodes. And you can  select and apply class types for LabVIEW class constants. 
 
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:super; font-size: 9pt}
-.tg .tg-jut8{background-color:#CCC;font-weight:bold;text-align:center;vertical-align:top}
-.tg .tg-lea3{background-color:#CCC;text-align:center;vertical-align:top}
-.tg .tg-sd4m{background-color:#CCC;font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-txwv{background-color:#EFEFEF;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -192,7 +179,6 @@ You can add, remove, or rearrange elements from bundle- and unbundle-by-name nod
 - Corrected issue where Browse Classes dialog might not show scripting or private classes on load
 - Corrected issue where a dot (“.”) in a cluster element label (eg “Numeric.1”) would prevent most BundleMagic cluster operations to fail
 - Corrected issue where Menu items “Remove Properties…” and “Rearrange Properties…” were selectable when only one property element was displayed
-- Remove parent items in dialog trees where filtering leaves no children elements
 - Corrected unexpected behavior when using arrow keys on a dialog tree
 - Corrected issue where tabbing from a dialog's filter when tree had no selectable items didn't work. Now tab will advance to the "Done" button.
 - Corrected issue where class selection dialog allowed selection of more than one class

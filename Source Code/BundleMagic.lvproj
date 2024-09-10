@@ -36,6 +36,7 @@
 		<Item Name="icons" Type="Folder">
 			<Item Name="lsp_logo.ico" Type="Document" URL="../../documents/icons/lsp_logo.ico"/>
 		</Item>
+		<Item Name="find rising and falling thresholds.vi" Type="VI" URL="../../../../../OneDrive/Desktop/find rising and falling thresholds.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
