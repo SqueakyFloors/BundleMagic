@@ -6,15 +6,65 @@
   <component name="ChangeListManager">
     <list default="true" id="b3f8eede-cf63-44c4-a557-c895b3822d70" name="Changes" comment="Create Init Bundle Magic Dialog">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code Support/BundleMagic.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code Support/BundleMagic.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code Support/BundleMagic_Methods_LV23.3.1f1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code Support/BundleMagic_Methods_LV23.3.1f1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code Support/BundleMagic_Properties_LV23.3.1f1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code Support/BundleMagic_Properties_LV23.3.1f1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Bundle Script_Named (Un)Bundler Move Up or Down.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/Bundle Script_Named (Un)Bundler Move Up or Down.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/BundleMagic.lvproj" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/BundleMagic.lvproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/build actions/Post-Build Action_Make copy for LV2015.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/build actions/Post-Build Action_Make copy for LV2015.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/build actions/Post-Build Action_restart menus.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/build actions/Post-Build Action_restart menus.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/build actions/Pre-Build Action.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/build actions/Pre-Build Action.vi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source Code/class/Class Method Property File Paths.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/class/Class Method Property File Paths.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/filter/Filter Class Tree_MAIN.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/filter/Filter Class Tree_MAIN.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/filter/Filter Property Tree_MAIN.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/filter/Filter Property Tree_MAIN.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/get class prop/Get All Classes Properties and Methods.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/get class prop/Get All Classes Properties and Methods.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/get class prop/Get All Classes.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/get class prop/Get All Classes.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/cluster/Bundle Script_Properties Remove.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/cluster/Bundle Script_Properties Remove.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/cluster/Cluster Item to Tree Item.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/cluster/Cluster Item to Tree Item.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/cluster/Cluster_Left Cell String.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/cluster/Cluster_Left Cell String.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/dialogs/DIALOG_Bundle Magic Init.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/DIALOG_Bundle Magic Init.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/dialogs/DIALOG_Class Selection.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/DIALOG_Class Selection.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/dialogs/DIALOG_Cluster Item Selection.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/DIALOG_Cluster Item Selection.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/dialogs/DIALOG_Method Selection.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/DIALOG_Method Selection.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/dialogs/DIALOG_Property Selection.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/DIALOG_Property Selection.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/dialogs/Helper Files_dialog messages.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/Helper Files_dialog messages.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/get class prop/Get All Properties.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/get class prop/Get All Properties.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/get class prop/Get Properties by Class Hierarchy_2.vi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Source Code/path &amp; file/Check for Ini files and create.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/path &amp; file/Check for Ini files and create.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/path &amp; file/Check for Ini files and create_ACAF.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/path &amp; file/INI_Property Files Built With.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/path &amp; file/INI_Property Files Built With.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/path &amp; file/INI_Read LV INI Settings.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/path &amp; file/INI_Read LV INI Settings.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/path &amp; file/INI_Rebuild Property Files.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/path &amp; file/INI_Rebuild Property Files.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/path &amp; file/Path_Support Directory.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/path &amp; file/Path_Support Directory.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/path &amp; file/RW Properties Engine.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/path &amp; file/RW Properties Engine.vi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source Code/path &amp; file/Read Properties as XML.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/path &amp; file/Read Properties as XML.vi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source Code/path &amp; file/Save Properties as XML.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/path &amp; file/Save Properties as XML.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/path &amp; file/lvconfig/Get LabVIEW Preferences (INI) File Path_copy.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/path &amp; file/lvconfig/Get LabVIEW Preferences (INI) File Path_copy.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/path &amp; file/lvconfig/LV Config Read Boolean.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/path &amp; file/lvconfig/LV Config Read Boolean.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/path &amp; file/lvconfig/LV Config Read Color.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/path &amp; file/lvconfig/LV Config Read Color.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/path &amp; file/lvconfig/LV Config Read Numeric (I32).vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/path &amp; file/lvconfig/LV Config Read Numeric (I32).vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/path &amp; file/lvconfig/LV Config Read Pathlist.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/path &amp; file/lvconfig/LV Config Read Pathlist.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/path &amp; file/lvconfig/LV Config Read String_Copy.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/path &amp; file/lvconfig/LV Config Read String_Copy.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/path &amp; file/lvconfig/LV Config Remove.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/path &amp; file/lvconfig/LV Config Remove.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/path &amp; file/lvconfig/LV Config Write Boolean.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/path &amp; file/lvconfig/LV Config Write Boolean.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/path &amp; file/lvconfig/LV Config Write Color.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/path &amp; file/lvconfig/LV Config Write Color.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/path &amp; file/lvconfig/LV Config Write Numeric (I32).vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/path &amp; file/lvconfig/LV Config Write Numeric (I32).vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/path &amp; file/lvconfig/LV Config Write Pathlist.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/path &amp; file/lvconfig/LV Config Write Pathlist.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/path &amp; file/lvconfig/LV Config Write String.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/path &amp; file/lvconfig/LV Config Write String.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/tests/BundleMagic TEST.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/tests/BundleMagic TEST.vi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source Code/top/BundleMagic TOP.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/top/BundleMagic TOP.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/top/BundleMagic.ctl" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/top/BundleMagic.ctl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/top/BundleMagic.llx" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/top/BundleMagic.llx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/top/BundleMagic.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/top/BundleMagic.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/utils/Application Control/In Subpanel.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/utils/Application Control/In Subpanel.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/utils/Data, Path &amp; File/Library Path_LLLB2.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/utils/Data, Path &amp; File/Library Path_LLLB2.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/utils/Picture/Rectangle bounds to size.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/utils/Picture/Rectangle bounds to size.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/utils/UI/Alignment/Align Windows/Align VI windows.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/utils/UI/Alignment/Align Windows/Align VI windows.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/utils/UI/Listbox and Table/Tree_Set position based on value.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/utils/UI/Listbox and Table/Tree_Set position based on value.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/utils/UI/Splitters/Dialog Window Setup.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/utils/UI/Splitters/Dialog Window Setup.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Distribution/BundleMagic Plugin.vipb" beforeDir="false" afterPath="$PROJECT_DIR$/Source Distribution/BundleMagic Plugin.vipb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Distribution/Initialize Bundle Magic.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Distribution/little_sphaeroid_design_lib_bundlemagic-1.1.0.9.vip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/icons/logo-bwr-trans.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/icons/logo-bwr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/icons/logo_bwr_trans_uMu_icon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/icons/lsp_logo.ico" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,20 +92,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;russell/1.1__release__prep&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/drwag/Documents/LabVIEW/BundleMagic&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Rebasing russell/1.1__release__prep",
+    "last_opened_file_path": "C:/Users/drwag/Documents/LabVIEW/BundleMagic",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -126,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726038297543</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Create Init Bundle Magic Dialog">
+      <option name="closed" value="true" />
+      <created>1726039995603</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1726039995603</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
