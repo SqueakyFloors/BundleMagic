@@ -15,3 +15,7 @@
 *.aliases
 *.lvlps
 .cache/
+
+# Directories
+/Source Code Support
+/Source Distribution/BundleMagic Support
