@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-02-28 18:46:53" Modified_Date="2024-09-11 19:17:43" Creator="drwag" Comments="" ID="65112cef0c6030629db42a647ee776c9">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-02-28 18:46:53" Modified_Date="2024-09-15 13:25:48" Creator="drwag" Comments="" ID="11d5c15138e9fe2f0365eea8197d7c1a">
   <Library_General_Settings>
-    <Package_File_Name>Little_Sphaeroid_Design_lib_BundleMagic</Package_File_Name>
-    <Library_Version>1.1.0.6</Library_Version>
+    <Package_File_Name>bundle_magic_plugin</Package_File_Name>
+    <Library_Version>1.1.0.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>LV2015 Version</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -33,11 +33,11 @@
       <Description>
 Bundle Mag!c is a LabVIEW plugin that augments right-click menu options on the block diagram for:
 
-• Cluster and class wires and terminals
-• Unbundle- and bundle-by-name nodes
-• Refnum terminals and wires
-• Property and Invoke nodes
-• Class constants and controls
+ï¿½ Cluster and class wires and terminals
+ï¿½ Unbundle- and bundle-by-name nodes
+ï¿½ Refnum terminals and wires
+ï¿½ Property and Invoke nodes
+ï¿½ Class constants and controls
 
 A dialog is provided to search and select cluster items, properties, methods, and LabVIEW classes, automating the placement of bundle- and unbundle-by-name nodes, property nodes, and invoke nodes when clicking on the appropriate terminals or wires.
 
@@ -54,42 +54,42 @@ The VIPM installation will include a dependency called "LabVIEW Bug Fix for Righ
       <Release_Notes>
 &lt;b&gt;New Features&lt;/b&gt;
 
-• Dialog search fields now accept multiple search terms
-• New (Un)Bundle by name and Property Node actions:
-  - Nodes with two elements will display “Swap” instead of “Rearrange…” in the contextual menu and will be swapped without a dialog
-  - Cluster and property elements can be moved up and down using the “Move Up” and “Move Down” contextual menu items
-• Added dialog when support files are being (re)built
+ï¿½ Dialog search fields now accept multiple search terms
+ï¿½ New (Un)Bundle by name and Property Node actions:
+  - Nodes with two elements will display "Swap" instead of "Rearrangeï¿½" in the contextual menu and will be swapped without a dialog
+  - Cluster and property elements can be moved up and down using the "Move Up" and "Move Down" contextual menu items
+ï¿½ Added dialog when support files are being (re)built
 
 &lt;b&gt;Bug Fixes&lt;/b&gt;
 
-• Corrected a bug where error cluster terminals on a case structure’s selector tunnel would not present bundle/unbundle menu items
-• Corrected issue on dialog open where cursor would not always appear in filter string control
-• Attempted to correct a bug where removing multiple cluster or property elements (including removing unwired elements) could cause LabVIEW to crash 
-• Attempted to correct issue where created Block Diagram items remain selected. (Marching ants are shown but don’t march)
-• Corrected issue where Browse Classes dialog might not show scripting or private classes on load
-• Corrected issue where a dot (“.”) in a cluster element label (eg “Numeric.1”) would prevent most BundleMagic cluster operations to fail
-• Corrected issue where Menu items “Remove Properties…” and “Rearrange Properties…” were selectable when only one property element was displayed
-• Corrected unexpected behavior when using arrow keys on a dialog tree
-• Corrected issue where tabbing from a dialog's filter when tree had no selectable items didn't work. Now tab will advance to the "Done" button.
-• Corrected issue where the class selection dialog allowed selection of more than one class
+ï¿½ Corrected a bug where error cluster terminals on a case structureï¿½s selector tunnel would not present bundle/unbundle menu items
+ï¿½ Corrected issue on dialog open where cursor would not always appear in filter string control
+ï¿½ Attempted to correct a bug where removing multiple cluster or property elements (including removing unwired elements) could cause LabVIEW to crash 
+ï¿½ Attempted to correct issue where created Block Diagram items remain selected. (Marching ants are shown but donï¿½t march)
+ï¿½ Corrected issue where Browse Classes dialog might not show scripting or private classes on load
+ï¿½ Corrected issue where a dot (.) in a cluster element label (eg "Numeric.1") would prevent most BundleMagic cluster operations to fail
+ï¿½ Corrected issue where Menu items "Remove Propertiesï¿½" and "Rearrange Propertiesï¿½" were selectable when only one property element was displayed
+ï¿½ Corrected unexpected behavior when using arrow keys on a dialog tree
+ï¿½ Corrected issue where tabbing from a dialog's filter when tree had no selectable items didn't work. Now tab will advance to the "Done" button.
+ï¿½ Corrected issue where the class selection dialog allowed selection of more than one class
 
 &lt;b&gt;Changes and Improvements&lt;/b&gt;
 
-• Support files are now based on the LabVIEW display name (such as “LV2023 Q3") rather than just the year, in order to capture any property/class or method changes in major LV releases.
-• Removing unwired elements no longer removes elements with broken wires
-• Fixed issue where BundleMag!c dialogs could appear partially offscreen, including a situation where the dialog could not be moved
-• Dialog filters 
+ï¿½ Support files are now based on the LabVIEW display name (such as "LV2023 Q3") rather than just the year, in order to capture any property/class or method changes in major LV releases.
+ï¿½ Removing unwired elements no longer removes elements with broken wires
+ï¿½ Fixed issue where BundleMag!c dialogs could appear partially offscreen, including a situation where the dialog could not be moved
+ï¿½ Dialog filters 
   - If dialog filter matches a parent item, its children are no longer removed
   - When filter matches child item, its selectable parent is not grayed out
   - When neither parent nor child matches filter, both are removed (previously left parent in tree, grayed)
   - Cluster filtering was refactored to remove (rather than collapse height of) filtered items
-• Arrow key dialog behaviors:
+ï¿½ Arrow key dialog behaviors:
   - From the filter, the down arrow key goes to the first selectable item in the tree, and the up arrow key goes to the last selectable item in the tree
   - Arrow keys now cycle on tree items
-• Tabbing in dialogs
+ï¿½ Tabbing in dialogs
    You can now use the Shift-Tab keyboard shortcut to return to the dialog filter from tree
   - Tab cycling in dialogs now goes filter-tree-done-filter, unless there are no items in the tree selector, in which case the tree is skipped
-• The Class dialog tree is now fully collapsed when the dialog opens, expands upon filtering, and collapses again when the filter value becomes empty</Release_Notes>
+ï¿½ The Class dialog tree is now fully collapsed when the dialog opens, expands upon filtering, and collapses again when the filter value becomes empty</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
